@@ -1,0 +1,322 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MLTS Exercise Schema v1.0",
+  "type": "object",
+  "required": [
+    "exercise_id",
+    "name_et",
+    "name_en",
+    "movement_pattern_primary",
+    "training_function",
+    "biomechanical_function",
+    "exercise_type",
+    "equipment_primary",
+    "primary_muscles",
+    "secondary_muscles",
+    "stabilizers",
+    "beginner_suitability",
+    "intermediate_suitability",
+    "advanced_suitability",
+    "instructions_et",
+    "breathing_et",
+    "common_mistakes_et",
+    "coaching_cues_et",
+    "alternatives"
+  ],
+  "properties": {
+    "exercise_id": {
+      "type": "string"
+    },
+    "name_et": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "aliases_et": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aliases_en": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "movement_pattern_primary": {
+      "type": "string"
+    },
+    "movement_pattern_secondary": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "training_function": {
+      "type": "string",
+      "enum": [
+        "primary_compound",
+        "secondary_compound",
+        "accessory",
+        "isolation",
+        "core",
+        "conditioning",
+        "mobility"
+      ]
+    },
+    "biomechanical_function": {
+      "type": "string"
+    },
+    "exercise_type": {
+      "type": "string",
+      "enum": [
+        "compound",
+        "accessory",
+        "isolation",
+        "core",
+        "conditioning",
+        "mobility"
+      ]
+    },
+    "equipment_primary": {
+      "type": "string"
+    },
+    "equipment_secondary": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "body_position": {
+      "type": "string"
+    },
+    "bilateral_unilateral": {
+      "type": "string",
+      "enum": [
+        "bilateral",
+        "unilateral",
+        "alternating",
+        "both"
+      ]
+    },
+    "open_closed_chain": {
+      "type": "string",
+      "enum": [
+        "open_chain",
+        "closed_chain",
+        "mixed",
+        "not_applicable"
+      ]
+    },
+    "primary_muscles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "secondary_muscles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stabilizers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "direct_load_weights": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+    "indirect_load_weights": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+    "muscle_length_profile": {
+      "type": "string",
+      "enum": [
+        "lengthened",
+        "shortened",
+        "mid_range",
+        "mixed",
+        "not_applicable"
+      ]
+    },
+    "beginner_suitability": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "intermediate_suitability": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "advanced_suitability": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "technical_complexity": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "learning_difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "stability_requirement": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "coordination_requirement": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "mobility_requirement": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "fatigue_cost": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "time_cost": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "setup_time": {
+      "type": "string",
+      "enum": [
+        "low",
+        "moderate",
+        "high"
+      ]
+    },
+    "default_sets": {
+      "type": "string"
+    },
+    "default_reps": {
+      "type": "string"
+    },
+    "default_rest_seconds": {
+      "type": "string"
+    },
+    "tempo_numeric": {
+      "type": "string"
+    },
+    "tempo_text_et": {
+      "type": "string"
+    },
+    "instructions_et": {
+      "type": "string"
+    },
+    "breathing_et": {
+      "type": "string"
+    },
+    "common_mistakes_et": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "coaching_cues_et": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "what_to_feel_et": {
+      "type": "object",
+      "properties": {
+        "should_feel": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "may_feel": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "should_not_feel": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "contraindications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "caution_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "progression_candidates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "regression_candidates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "substitution_group": {
+      "type": "string"
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "client_visible": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "reviewed",
+        "approved",
+        "deprecated"
+      ]
+    },
+    "version": {
+      "type": "string"
+    }
+  }
+}

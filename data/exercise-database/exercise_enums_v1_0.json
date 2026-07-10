@@ -1,0 +1,60 @@
+{
+  "movement_patterns": [
+    "knee_dominant",
+    "hip_dominant",
+    "horizontal_push",
+    "vertical_push",
+    "horizontal_pull",
+    "vertical_pull",
+    "single_leg",
+    "carry",
+    "rotation",
+    "anti_rotation",
+    "anti_extension",
+    "anti_lateral_flexion",
+    "elbow_flexion",
+    "elbow_extension",
+    "shoulder_abduction",
+    "hip_abduction",
+    "hip_adduction",
+    "calf_raise"
+  ],
+  "training_functions": [
+    "primary_compound",
+    "secondary_compound",
+    "accessory",
+    "isolation",
+    "core",
+    "conditioning",
+    "mobility"
+  ],
+  "equipment": [
+    "barbell",
+    "dumbbell",
+    "kettlebell",
+    "smith_machine",
+    "cable",
+    "machine",
+    "bodyweight",
+    "resistance_band",
+    "bench",
+    "trx",
+    "medicine_ball",
+    "sled",
+    "landmine"
+  ],
+  "muscle_length_profile": [
+    "lengthened",
+    "shortened",
+    "mid_range",
+    "mixed",
+    "not_applicable"
+  ],
+  "rating_scale": {
+    "1": "väga madal",
+    "2": "madal",
+    "3": "keskmine",
+    "4": "kõrge",
+    "5": "väga kõrge"
+  }
+}
