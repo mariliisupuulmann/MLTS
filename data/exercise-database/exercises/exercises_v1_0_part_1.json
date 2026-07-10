@@ -1,0 +1,2334 @@
+[
+  {
+    "exercise_id": "ex_knee_001",
+    "name_et": "Jalapress masinal",
+    "name_en": "Machine Leg Press",
+    "movement_pattern_primary": "knee_dominant",
+    "movement_pattern_secondary": [
+      "hip_extension"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "bilateral_knee_dominant_press",
+    "exercise_type": "compound",
+    "equipment_primary": "machine",
+    "equipment_secondary": [],
+    "body_position": "seated",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "closed_chain",
+    "primary_muscles": [
+      "quadriceps"
+    ],
+    "secondary_muscles": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "stabilizers": [
+      "core"
+    ],
+    "direct_load_weights": {
+      "quadriceps": 1.0,
+      "gluteus_maximus": 0.4,
+      "hamstrings": 0.2
+    },
+    "indirect_load_weights": {
+      "core": 0.2
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 2,
+    "learning_difficulty": 2,
+    "stability_requirement": 1,
+    "coordination_requirement": 1,
+    "mobility_requirement": 2,
+    "fatigue_cost": 4,
+    "time_cost": 3,
+    "setup_time": "moderate",
+    "default_sets": "3-4",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90-120",
+    "tempo_numeric": "3-1-1-0",
+    "tempo_text_et": "Langeta kelku kontrollitult, hoia alumises asendis lühike paus ja suru raskus jõuliselt üles.",
+    "instructions_et": "Istu masinale, aseta jalad platvormile puusade kuni õlgade laiuselt. Langeta raskus kontrollitult, kuni põlved on mugavas ja valuvabas asendis painutatud. Suru platvorm üles läbi terve labajala, hoides põlved varvastega samas suunas.",
+    "breathing_et": "Hinga sisse raskuse langetamisel ja hinga välja platvormi üles surudes.",
+    "common_mistakes_et": [
+      "Põlved vajuvad sissepoole",
+      "Alaselg kaardub või tõuseb istmelt",
+      "Raskus surutakse ainult päkkadega",
+      "Liigutus jääb liiga lühikeseks"
+    ],
+    "coaching_cues_et": [
+      "Suru läbi terve talla",
+      "Hoia põlved varvaste suunas",
+      "Kontrolli langetust",
+      "Ära lukusta põlvi järsult"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "reie esiosa",
+        "tuharad"
+      ],
+      "may_feel": [
+        "reie tagaosa",
+        "kerelihased"
+      ],
+      "should_not_feel": [
+        "põlvevalu",
+        "alaselja valu"
+      ]
+    },
+    "contraindications": [
+      "acute_knee_pain_unassessed"
+    ],
+    "caution_flags": [
+      "knee_pain",
+      "hip_mobility_limit"
+    ],
+    "alternatives": [
+      "Hack Squat",
+      "Smith Squat",
+      "Goblet Squat",
+      "Belt Squat"
+    ],
+    "progression_candidates": [
+      "Hack Squat",
+      "Barbell Squat"
+    ],
+    "regression_candidates": [
+      "Box Squat",
+      "Smith Squat"
+    ],
+    "substitution_group": "knee_dominant_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_knee_002",
+    "name_et": "Kükk Smithi masinal",
+    "name_en": "Smith Machine Squat",
+    "movement_pattern_primary": "knee_dominant",
+    "movement_pattern_secondary": [
+      "hip_extension"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "bilateral_knee_dominant_squat",
+    "exercise_type": "compound",
+    "equipment_primary": "smith_machine",
+    "equipment_secondary": [],
+    "body_position": "standing",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "closed_chain",
+    "primary_muscles": [
+      "quadriceps"
+    ],
+    "secondary_muscles": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "stabilizers": [
+      "core"
+    ],
+    "direct_load_weights": {
+      "quadriceps": 1.0,
+      "gluteus_maximus": 0.5,
+      "hamstrings": 0.2
+    },
+    "indirect_load_weights": {
+      "core": 0.3
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 4,
+    "advanced_suitability": 3,
+    "technical_complexity": 2,
+    "learning_difficulty": 2,
+    "stability_requirement": 1,
+    "coordination_requirement": 2,
+    "mobility_requirement": 3,
+    "fatigue_cost": 4,
+    "time_cost": 3,
+    "setup_time": "moderate",
+    "default_sets": "3-4",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90-120",
+    "tempo_numeric": "3-1-1-0",
+    "tempo_text_et": "Lasku kontrollitult, hoia alumises asendis hetk ja tõuse jõuliselt üles.",
+    "instructions_et": "Aseta kang ülaseljale, seisa jalad puusade kuni õlgade laiuselt. Lasku kükki kontrollitult, hoides põlved varvastega samas suunas. Tõuse üles läbi terve talla.",
+    "breathing_et": "Hinga sisse laskumisel ja välja üles tõustes.",
+    "common_mistakes_et": [
+      "Liiga suur ette- või tahakalle",
+      "Põlved vajuvad sisse",
+      "Kannad tõusevad",
+      "Liiga lühike liigutusulatus"
+    ],
+    "coaching_cues_et": [
+      "Hoia rind avatud",
+      "Põlved varvaste suunas",
+      "Suru põrand endast eemale",
+      "Kontrollitud laskumine"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "reie esiosa",
+        "tuharad"
+      ],
+      "may_feel": [
+        "kerelihased"
+      ],
+      "should_not_feel": [
+        "terav põlvevalu",
+        "alaseljavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "knee_pain",
+      "fear_of_squat"
+    ],
+    "alternatives": [
+      "Leg Press",
+      "Goblet Squat",
+      "Hack Squat",
+      "Box Squat"
+    ],
+    "progression_candidates": [
+      "Goblet Squat",
+      "Barbell Back Squat"
+    ],
+    "regression_candidates": [
+      "Leg Press",
+      "Box Squat"
+    ],
+    "substitution_group": "knee_dominant_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_knee_003",
+    "name_et": "Kükk hantliga",
+    "name_en": "Dumbbell Squat",
+    "movement_pattern_primary": "knee_dominant",
+    "movement_pattern_secondary": [
+      "hip_extension"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "bilateral_knee_dominant_squat",
+    "exercise_type": "compound",
+    "equipment_primary": "dumbbell",
+    "equipment_secondary": [],
+    "body_position": "standing",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "closed_chain",
+    "primary_muscles": [
+      "quadriceps"
+    ],
+    "secondary_muscles": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "stabilizers": [
+      "core",
+      "upper_back"
+    ],
+    "direct_load_weights": {
+      "quadriceps": 1.0,
+      "gluteus_maximus": 0.45,
+      "hamstrings": 0.2
+    },
+    "indirect_load_weights": {
+      "core": 0.4,
+      "upper_back": 0.2
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 4,
+    "intermediate_suitability": 4,
+    "advanced_suitability": 3,
+    "technical_complexity": 3,
+    "learning_difficulty": 3,
+    "stability_requirement": 3,
+    "coordination_requirement": 3,
+    "mobility_requirement": 3,
+    "fatigue_cost": 3,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "3",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90",
+    "tempo_numeric": "3-1-1-0",
+    "tempo_text_et": "Lasku rahulikult ja tõuse kontrollitult üles.",
+    "instructions_et": "Hoia hantleid külgedel või üht hantlit keha ees. Lasku kükki, hoides kere kontrolli all ja põlved varvastega samas suunas. Tõuse üles läbi terve talla.",
+    "breathing_et": "Hinga sisse laskudes, hinga välja üles tõustes.",
+    "common_mistakes_et": [
+      "Kere vajub liigselt ette",
+      "Põlved vajuvad sisse",
+      "Kannad tõusevad",
+      "Hantlid kisuvad keha tasakaalust välja"
+    ],
+    "coaching_cues_et": [
+      "Suru läbi kanna ja päka",
+      "Hoia kõht pinges",
+      "Liigu kontrollitult",
+      "Põlved varvastega samas suunas"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "reie esiosa",
+        "tuharad"
+      ],
+      "may_feel": [
+        "kerelihased",
+        "ülaselg"
+      ],
+      "should_not_feel": [
+        "põlvevalu",
+        "alaselja valu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "balance_limitation",
+      "knee_pain"
+    ],
+    "alternatives": [
+      "Smith Squat",
+      "Goblet Squat",
+      "Leg Press"
+    ],
+    "progression_candidates": [
+      "Goblet Squat",
+      "Barbell Squat"
+    ],
+    "regression_candidates": [
+      "Smith Squat",
+      "Box Squat"
+    ],
+    "substitution_group": "knee_dominant_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_knee_004",
+    "name_et": "Goblet-kükk",
+    "name_en": "Goblet Squat",
+    "movement_pattern_primary": "knee_dominant",
+    "movement_pattern_secondary": [
+      "hip_extension"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "bilateral_knee_dominant_squat",
+    "exercise_type": "compound",
+    "equipment_primary": "dumbbell",
+    "equipment_secondary": [
+      "kettlebell"
+    ],
+    "body_position": "standing",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "closed_chain",
+    "primary_muscles": [
+      "quadriceps"
+    ],
+    "secondary_muscles": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "stabilizers": [
+      "core",
+      "upper_back"
+    ],
+    "direct_load_weights": {
+      "quadriceps": 1.0,
+      "gluteus_maximus": 0.45,
+      "hamstrings": 0.2
+    },
+    "indirect_load_weights": {
+      "core": 0.5,
+      "upper_back": 0.3
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 4,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 3,
+    "technical_complexity": 3,
+    "learning_difficulty": 3,
+    "stability_requirement": 3,
+    "coordination_requirement": 3,
+    "mobility_requirement": 3,
+    "fatigue_cost": 3,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "3",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90",
+    "tempo_numeric": "3-1-1-0",
+    "tempo_text_et": "Lasku kontrollitult, hoia alumises asendis hetk ja tõuse üles.",
+    "instructions_et": "Hoia hantlit või sangpommi rinna ees. Lasku kükki, hoides kere püstisena ja küünarnukid keha lähedal. Tõuse üles läbi terve talla.",
+    "breathing_et": "Hinga sisse laskumisel ja välja tõusmisel.",
+    "common_mistakes_et": [
+      "Raskus vajub kehast eemale",
+      "Selg ümardub",
+      "Põlved vajuvad sisse",
+      "Liigutus jääb poolikuks"
+    ],
+    "coaching_cues_et": [
+      "Hoia raskus rinna lähedal",
+      "Küünarnukid alla",
+      "Põlved varvaste suunas",
+      "Suru põrand endast eemale"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "reie esiosa",
+        "tuharad"
+      ],
+      "may_feel": [
+        "kerelihased",
+        "ülaselg"
+      ],
+      "should_not_feel": [
+        "alaseljavalu",
+        "põlvevalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "wrist_discomfort",
+      "knee_pain"
+    ],
+    "alternatives": [
+      "Smith Squat",
+      "Dumbbell Squat",
+      "Leg Press"
+    ],
+    "progression_candidates": [
+      "Barbell Front Squat",
+      "Barbell Back Squat"
+    ],
+    "regression_candidates": [
+      "Box Squat",
+      "Smith Squat"
+    ],
+    "substitution_group": "knee_dominant_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_knee_005",
+    "name_et": "Hack-kükk masinal",
+    "name_en": "Machine Hack Squat",
+    "movement_pattern_primary": "knee_dominant",
+    "movement_pattern_secondary": [
+      "hip_extension"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "bilateral_knee_dominant_squat",
+    "exercise_type": "compound",
+    "equipment_primary": "machine",
+    "equipment_secondary": [],
+    "body_position": "standing_supported",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "closed_chain",
+    "primary_muscles": [
+      "quadriceps"
+    ],
+    "secondary_muscles": [
+      "gluteus_maximus"
+    ],
+    "stabilizers": [
+      "core"
+    ],
+    "direct_load_weights": {
+      "quadriceps": 1.0,
+      "gluteus_maximus": 0.35
+    },
+    "indirect_load_weights": {
+      "core": 0.2
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 3,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 5,
+    "technical_complexity": 3,
+    "learning_difficulty": 3,
+    "stability_requirement": 2,
+    "coordination_requirement": 2,
+    "mobility_requirement": 3,
+    "fatigue_cost": 4,
+    "time_cost": 3,
+    "setup_time": "moderate",
+    "default_sets": "3-4",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90-120",
+    "tempo_numeric": "3-1-1-0",
+    "tempo_text_et": "Lasku kontrollitult ja tõuse jõuliselt üles.",
+    "instructions_et": "Aseta selg ja õlad masinale, jalad platvormile. Lasku kontrollitult alla, hoides põlved varvastega samas suunas. Suru end üles läbi terve talla.",
+    "breathing_et": "Hinga sisse laskudes ja välja üles surudes.",
+    "common_mistakes_et": [
+      "Põlved vajuvad sisse",
+      "Kannad tõusevad",
+      "Liiga suur raskus vähendab liigutusulatust",
+      "Alaselg kaardub toest eemale"
+    ],
+    "coaching_cues_et": [
+      "Hoia selg vastu tuge",
+      "Suru läbi terve talla",
+      "Kontrolli alumist asendit",
+      "Ära põruta üles"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "reie esiosa"
+      ],
+      "may_feel": [
+        "tuharad"
+      ],
+      "should_not_feel": [
+        "põlvevalu",
+        "alaseljavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "knee_pain",
+      "limited_ankle_mobility"
+    ],
+    "alternatives": [
+      "Leg Press",
+      "Smith Squat",
+      "Belt Squat"
+    ],
+    "progression_candidates": [
+      "Barbell Squat"
+    ],
+    "regression_candidates": [
+      "Leg Press",
+      "Smith Squat"
+    ],
+    "substitution_group": "knee_dominant_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_hip_001",
+    "name_et": "Rumeenia jõutõmme hantlitega",
+    "name_en": "Dumbbell Romanian Deadlift",
+    "movement_pattern_primary": "hip_dominant",
+    "movement_pattern_secondary": [
+      "posterior_chain"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "bilateral_hip_hinge",
+    "exercise_type": "compound",
+    "equipment_primary": "dumbbell",
+    "equipment_secondary": [],
+    "body_position": "standing",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "closed_chain",
+    "primary_muscles": [
+      "hamstrings",
+      "gluteus_maximus"
+    ],
+    "secondary_muscles": [
+      "erector_spinae"
+    ],
+    "stabilizers": [
+      "core",
+      "upper_back",
+      "grip"
+    ],
+    "direct_load_weights": {
+      "hamstrings": 1.0,
+      "gluteus_maximus": 0.8,
+      "erector_spinae": 0.4
+    },
+    "indirect_load_weights": {
+      "core": 0.4,
+      "upper_back": 0.3,
+      "grip": 0.3
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 4,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 3,
+    "learning_difficulty": 3,
+    "stability_requirement": 3,
+    "coordination_requirement": 3,
+    "mobility_requirement": 3,
+    "fatigue_cost": 4,
+    "time_cost": 3,
+    "setup_time": "low",
+    "default_sets": "3",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90-120",
+    "tempo_numeric": "3-1-1-0",
+    "tempo_text_et": "Vii puusad taha aeglaselt, tunneta venitust reie tagaosas ja tõuse kontrollitult üles.",
+    "instructions_et": "Seisa jalad puusade laiuselt, hantlid keha ees või külgedel. Vii puusad taha, hoides selg neutraalsena ja põlved kergelt painutatud. Lasku nii kaugele, kuni tunned reie tagaosa venitust ja tehnika säilib. Tõuse üles puusa sirutades.",
+    "breathing_et": "Hinga sisse laskumisel ja välja üles tulles.",
+    "common_mistakes_et": [
+      "Selg ümardub",
+      "Põlved painduvad liiga palju",
+      "Hantlid liiguvad kehast kaugele",
+      "Liigutus tuleb alaseljast, mitte puusast"
+    ],
+    "coaching_cues_et": [
+      "Puusad taha",
+      "Hoia hantlid keha lähedal",
+      "Selg pikk",
+      "Tunneta reie tagaosa"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "reie tagaosa",
+        "tuharad"
+      ],
+      "may_feel": [
+        "haare",
+        "kerelihased",
+        "alaselg stabiliseerijana"
+      ],
+      "should_not_feel": [
+        "ainult alaselga",
+        "teravat valu"
+      ]
+    },
+    "contraindications": [
+      "acute_low_back_pain_unassessed"
+    ],
+    "caution_flags": [
+      "low_back_sensitivity",
+      "hamstring_mobility_limit"
+    ],
+    "alternatives": [
+      "Barbell Romanian Deadlift",
+      "Smith Romanian Deadlift",
+      "Cable Pull Through",
+      "45 Degree Back Extension"
+    ],
+    "progression_candidates": [
+      "Barbell Romanian Deadlift"
+    ],
+    "regression_candidates": [
+      "Cable Pull Through",
+      "Hip Hinge Drill"
+    ],
+    "substitution_group": "hip_hinge_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_hip_002",
+    "name_et": "Rumeenia jõutõmme kangiga",
+    "name_en": "Barbell Romanian Deadlift",
+    "movement_pattern_primary": "hip_dominant",
+    "movement_pattern_secondary": [
+      "posterior_chain"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "bilateral_hip_hinge",
+    "exercise_type": "compound",
+    "equipment_primary": "barbell",
+    "equipment_secondary": [],
+    "body_position": "standing",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "closed_chain",
+    "primary_muscles": [
+      "hamstrings",
+      "gluteus_maximus"
+    ],
+    "secondary_muscles": [
+      "erector_spinae"
+    ],
+    "stabilizers": [
+      "core",
+      "upper_back",
+      "grip"
+    ],
+    "direct_load_weights": {
+      "hamstrings": 1.0,
+      "gluteus_maximus": 0.8,
+      "erector_spinae": 0.5
+    },
+    "indirect_load_weights": {
+      "core": 0.5,
+      "upper_back": 0.4,
+      "grip": 0.4
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 2,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 5,
+    "technical_complexity": 4,
+    "learning_difficulty": 4,
+    "stability_requirement": 4,
+    "coordination_requirement": 4,
+    "mobility_requirement": 3,
+    "fatigue_cost": 5,
+    "time_cost": 3,
+    "setup_time": "moderate",
+    "default_sets": "3-4",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90-120",
+    "tempo_numeric": "3-1-1-0",
+    "tempo_text_et": "Lasku aeglaselt ja kontrollitult, tõuse puusade abil üles.",
+    "instructions_et": "Hoia kang keha ees, jalad puusade laiuselt. Vii puusad taha ja lase kangil liikuda keha lähedalt alla. Hoia selg neutraalne ja põlved kergelt painutatud. Tõuse üles puusade sirutusega.",
+    "breathing_et": "Hinga sisse laskumisel, pingesta kere ja hinga välja üles tulles.",
+    "common_mistakes_et": [
+      "Kang liigub kehast eemale",
+      "Selg ümardub",
+      "Liiga suur raskus",
+      "Puusad ei liigu taha"
+    ],
+    "coaching_cues_et": [
+      "Kang mööda jalgu",
+      "Puusad taha",
+      "Selg pikk",
+      "Tõuse tuharaga"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "reie tagaosa",
+        "tuharad"
+      ],
+      "may_feel": [
+        "alaselg stabiliseerijana",
+        "haare"
+      ],
+      "should_not_feel": [
+        "ainult alaselga",
+        "teravat alaseljavalu"
+      ]
+    },
+    "contraindications": [
+      "acute_low_back_pain_unassessed"
+    ],
+    "caution_flags": [
+      "low_back_sensitivity",
+      "poor_hip_hinge_control"
+    ],
+    "alternatives": [
+      "Dumbbell Romanian Deadlift",
+      "Smith Romanian Deadlift",
+      "Cable Pull Through",
+      "45 Degree Back Extension"
+    ],
+    "progression_candidates": [
+      "Conventional Deadlift"
+    ],
+    "regression_candidates": [
+      "Dumbbell Romanian Deadlift",
+      "Hip Hinge Drill"
+    ],
+    "substitution_group": "hip_hinge_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_hip_003",
+    "name_et": "Puusatõsted kangiga",
+    "name_en": "Barbell Hip Thrust",
+    "movement_pattern_primary": "hip_dominant",
+    "movement_pattern_secondary": [
+      "glute_dominant"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "horizontal_hip_extension",
+    "exercise_type": "compound",
+    "equipment_primary": "barbell",
+    "equipment_secondary": [
+      "bench"
+    ],
+    "body_position": "bench_supported",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "closed_chain",
+    "primary_muscles": [
+      "gluteus_maximus"
+    ],
+    "secondary_muscles": [
+      "hamstrings",
+      "quadriceps"
+    ],
+    "stabilizers": [
+      "core"
+    ],
+    "direct_load_weights": {
+      "gluteus_maximus": 1.0,
+      "hamstrings": 0.3,
+      "quadriceps": 0.2
+    },
+    "indirect_load_weights": {
+      "core": 0.3
+    },
+    "muscle_length_profile": "shortened",
+    "beginner_suitability": 3,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 5,
+    "technical_complexity": 3,
+    "learning_difficulty": 3,
+    "stability_requirement": 3,
+    "coordination_requirement": 2,
+    "mobility_requirement": 2,
+    "fatigue_cost": 4,
+    "time_cost": 4,
+    "setup_time": "high",
+    "default_sets": "3-4",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90-120",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Langeta kontrollitult, tõsta puusad üles ja hoia ülaasendis tuharapinget.",
+    "instructions_et": "Toeta ülaselg pingile, aseta kang puusadele. Jalad on põrandal ja põlved painutatud. Tõsta puusad üles, kuni keha moodustab õlgadest põlvedeni sirge joone. Hoia ülaasendis tuharad pinges ja langeta kontrollitult.",
+    "breathing_et": "Hinga sisse langetamisel ja välja puusasid üles tõstes.",
+    "common_mistakes_et": [
+      "Üles tõustes läheb alaselg nõgusaks",
+      "Jalad on liiga kaugel või liiga lähedal",
+      "Puusad ei tõuse lõpuni",
+      "Tuhara asemel tuntakse reie esiosa või alaselga"
+    ],
+    "coaching_cues_et": [
+      "Lõug kergelt rinnale",
+      "Tõsta puusad, mitte alaselg",
+      "Suru läbi kanna",
+      "Pinguta tuharad ülaasendis"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "tuharad"
+      ],
+      "may_feel": [
+        "reie tagaosa",
+        "reie esiosa vähesel määral"
+      ],
+      "should_not_feel": [
+        "alaselja valu",
+        "ainult reie esiosa"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "low_back_sensitivity",
+      "hip_discomfort"
+    ],
+    "alternatives": [
+      "Machine Hip Thrust",
+      "Glute Bridge",
+      "Cable Pull Through",
+      "45 Degree Back Extension"
+    ],
+    "progression_candidates": [
+      "Single Leg Hip Thrust"
+    ],
+    "regression_candidates": [
+      "Glute Bridge",
+      "Machine Hip Thrust"
+    ],
+    "substitution_group": "hip_extension_glute_dominant",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_hip_004",
+    "name_et": "Jalakõverdus masinal",
+    "name_en": "Machine Leg Curl",
+    "movement_pattern_primary": "knee_flexion",
+    "movement_pattern_secondary": [
+      "hamstring_isolation"
+    ],
+    "training_function": "isolation",
+    "biomechanical_function": "knee_flexion",
+    "exercise_type": "isolation",
+    "equipment_primary": "machine",
+    "equipment_secondary": [],
+    "body_position": "seated_or_lying",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "hamstrings"
+    ],
+    "secondary_muscles": [
+      "gastrocnemius"
+    ],
+    "stabilizers": [],
+    "direct_load_weights": {
+      "hamstrings": 1.0
+    },
+    "indirect_load_weights": {
+      "gastrocnemius": 0.2
+    },
+    "muscle_length_profile": "shortened",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 1,
+    "learning_difficulty": 1,
+    "stability_requirement": 1,
+    "coordination_requirement": 1,
+    "mobility_requirement": 1,
+    "fatigue_cost": 2,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "2-3",
+    "default_reps": "10-15",
+    "default_rest_seconds": "60",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Painuta jalad kontrollitult, hoia lõppasendis hetk ja lase raskus aeglaselt tagasi.",
+    "instructions_et": "Seadista masin nii, et põlveliiges jääb masina teljega kohakuti. Painuta jalad kontrollitult, hoides puusad ja kere paigal. Lase raskus aeglaselt tagasi.",
+    "breathing_et": "Hinga välja jalgu kõverdades ja sisse tagasi langetades.",
+    "common_mistakes_et": [
+      "Liigutus tehakse hooga",
+      "Puusad tõusevad pingilt",
+      "Raskus lastakse kiiresti tagasi",
+      "Liigutusulatus on liiga väike"
+    ],
+    "coaching_cues_et": [
+      "Kontrolli mõlemat suunda",
+      "Hoia puusad paigal",
+      "Tunneta reie tagaosa",
+      "Ära kasuta hoogu"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "reie tagaosa"
+      ],
+      "may_feel": [
+        "sääre ülaosa vähesel määral"
+      ],
+      "should_not_feel": [
+        "põlvevalu",
+        "alaseljavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "knee_pain"
+    ],
+    "alternatives": [
+      "Swiss Ball Leg Curl",
+      "Slider Leg Curl",
+      "Nordic Hamstring Curl"
+    ],
+    "progression_candidates": [
+      "Nordic Hamstring Curl"
+    ],
+    "regression_candidates": [
+      "Light Machine Leg Curl"
+    ],
+    "substitution_group": "hamstring_knee_flexion_isolation",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_knee_006",
+    "name_et": "Jalasirutus masinal",
+    "name_en": "Machine Leg Extension",
+    "movement_pattern_primary": "knee_extension",
+    "movement_pattern_secondary": [
+      "quadriceps_isolation"
+    ],
+    "training_function": "isolation",
+    "biomechanical_function": "knee_extension",
+    "exercise_type": "isolation",
+    "equipment_primary": "machine",
+    "equipment_secondary": [],
+    "body_position": "seated",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "quadriceps"
+    ],
+    "secondary_muscles": [],
+    "stabilizers": [],
+    "direct_load_weights": {
+      "quadriceps": 1.0
+    },
+    "indirect_load_weights": {},
+    "muscle_length_profile": "shortened",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 1,
+    "learning_difficulty": 1,
+    "stability_requirement": 1,
+    "coordination_requirement": 1,
+    "mobility_requirement": 1,
+    "fatigue_cost": 2,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "2-3",
+    "default_reps": "10-15",
+    "default_rest_seconds": "60",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Siruta jalad kontrollitult, hoia lõppasendis hetk ja langeta aeglaselt.",
+    "instructions_et": "Istu masinale ja seadista tugi sääre alumise osa juurde. Siruta põlved kontrollitult, hoia ülaasendis hetk ja langeta raskus aeglaselt tagasi.",
+    "breathing_et": "Hinga välja jalgu sirutades ja sisse raskust langetades.",
+    "common_mistakes_et": [
+      "Liigutus tehakse hooga",
+      "Raskus lastakse kiiresti alla",
+      "Põlved liiguvad ebamugavas suunas",
+      "Liiga suur raskus vähendab kontrolli"
+    ],
+    "coaching_cues_et": [
+      "Tunneta reie esiosa",
+      "Hoia kontroll",
+      "Ära põruta lõppasendisse",
+      "Langeta aeglaselt"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "reie esiosa"
+      ],
+      "may_feel": [],
+      "should_not_feel": [
+        "põlvevalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "knee_pain",
+      "post_knee_surgery"
+    ],
+    "alternatives": [
+      "Spanish Squat",
+      "Sissy Squat Regression",
+      "Terminal Knee Extension"
+    ],
+    "progression_candidates": [
+      "Heavier Leg Extension"
+    ],
+    "regression_candidates": [
+      "Terminal Knee Extension"
+    ],
+    "substitution_group": "quadriceps_knee_extension_isolation",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_pull_v_001",
+    "name_et": "Vertikaalne seljatõmme plokksüsteemil",
+    "name_en": "Lat Pulldown",
+    "movement_pattern_primary": "vertical_pull",
+    "movement_pattern_secondary": [
+      "shoulder_adduction",
+      "elbow_flexion"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "vertical_upper_body_pull",
+    "exercise_type": "compound",
+    "equipment_primary": "cable",
+    "equipment_secondary": [
+      "machine"
+    ],
+    "body_position": "seated",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "latissimus_dorsi"
+    ],
+    "secondary_muscles": [
+      "biceps",
+      "teres_major",
+      "rear_deltoid"
+    ],
+    "stabilizers": [
+      "core",
+      "lower_trapezius"
+    ],
+    "direct_load_weights": {
+      "latissimus_dorsi": 1.0,
+      "teres_major": 0.5
+    },
+    "indirect_load_weights": {
+      "biceps": 0.5,
+      "rear_deltoid": 0.25,
+      "core": 0.2,
+      "lower_trapezius": 0.25
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 2,
+    "learning_difficulty": 2,
+    "stability_requirement": 1,
+    "coordination_requirement": 2,
+    "mobility_requirement": 2,
+    "fatigue_cost": 3,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "3",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Tõmba kang kontrollitult alla, hoia hetk ja lase aeglaselt üles tagasi.",
+    "instructions_et": "Istu pingile ja fikseeri reied padja alla. Haara kangist, vii õlad alla ja tõmba kang rindkere ülaosa suunas. Lase kang kontrollitult üles tagasi.",
+    "breathing_et": "Hinga välja kangi alla tõmmates ja sisse üles tagasi lastes.",
+    "common_mistakes_et": [
+      "Õlad tõusevad kõrvade juurde",
+      "Kang tõmmatakse kukla taha",
+      "Keha kõigub liigselt",
+      "Tõmme toimub ainult kätega"
+    ],
+    "coaching_cues_et": [
+      "Õlad alla",
+      "Tõmba küünarnukid alla",
+      "Rind avatud",
+      "Tunneta selga, mitte ainult käsi"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "lai seljalihas"
+      ],
+      "may_feel": [
+        "biitseps",
+        "tagumine õlg"
+      ],
+      "should_not_feel": [
+        "kaelapinge",
+        "õlavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "shoulder_pain"
+    ],
+    "alternatives": [
+      "Assisted Pull-up",
+      "Machine Pulldown",
+      "Resistance Band Pulldown"
+    ],
+    "progression_candidates": [
+      "Assisted Pull-up",
+      "Pull-up"
+    ],
+    "regression_candidates": [
+      "Resistance Band Pulldown"
+    ],
+    "substitution_group": "vertical_pull_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_pull_h_001",
+    "name_et": "Istudes horisontaalne sõudmine plokksüsteemil",
+    "name_en": "Seated Cable Row",
+    "movement_pattern_primary": "horizontal_pull",
+    "movement_pattern_secondary": [
+      "scapular_retraction",
+      "elbow_flexion"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "horizontal_upper_body_pull",
+    "exercise_type": "compound",
+    "equipment_primary": "cable",
+    "equipment_secondary": [],
+    "body_position": "seated",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "mid_back",
+      "latissimus_dorsi"
+    ],
+    "secondary_muscles": [
+      "biceps",
+      "rear_deltoid"
+    ],
+    "stabilizers": [
+      "core",
+      "erector_spinae"
+    ],
+    "direct_load_weights": {
+      "mid_back": 1.0,
+      "latissimus_dorsi": 0.6
+    },
+    "indirect_load_weights": {
+      "biceps": 0.5,
+      "rear_deltoid": 0.4,
+      "core": 0.3,
+      "erector_spinae": 0.2
+    },
+    "muscle_length_profile": "mixed",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 2,
+    "learning_difficulty": 2,
+    "stability_requirement": 2,
+    "coordination_requirement": 2,
+    "mobility_requirement": 2,
+    "fatigue_cost": 3,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "3",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Tõmba käepide kontrollitult enda suunas, hoia hetk ja lase aeglaselt tagasi.",
+    "instructions_et": "Istu sirge seljaga, jalad toele. Haara käepidemest ja tõmba see kere suunas, viies abaluud kokku. Lase käed kontrollitult ette tagasi.",
+    "breathing_et": "Hinga välja tõmmates ja sisse tagasi lastes.",
+    "common_mistakes_et": [
+      "Selg ümardub",
+      "Tõmme tehakse hooga",
+      "Õlad tõusevad",
+      "Küünarnukid liiguvad liiga kõrgele või laiali"
+    ],
+    "coaching_cues_et": [
+      "Rind avatud",
+      "Abaluud kokku",
+      "Tõmba küünarnukid taha",
+      "Kontrolli tagasiteed"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "selja keskosa",
+        "lai seljalihas"
+      ],
+      "may_feel": [
+        "biitseps",
+        "tagumine õlg"
+      ],
+      "should_not_feel": [
+        "alaseljavalu",
+        "kaelapinge"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "low_back_sensitivity",
+      "shoulder_pain"
+    ],
+    "alternatives": [
+      "Chest Supported Row",
+      "Machine Row",
+      "One Arm Dumbbell Row"
+    ],
+    "progression_candidates": [
+      "Chest Supported Row",
+      "Barbell Row"
+    ],
+    "regression_candidates": [
+      "Machine Row"
+    ],
+    "substitution_group": "horizontal_pull_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_pull_h_002",
+    "name_et": "Rinnatoega sõudmine masinal",
+    "name_en": "Chest Supported Row",
+    "movement_pattern_primary": "horizontal_pull",
+    "movement_pattern_secondary": [
+      "scapular_retraction"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "horizontal_upper_body_pull_supported",
+    "exercise_type": "compound",
+    "equipment_primary": "machine",
+    "equipment_secondary": [
+      "dumbbell"
+    ],
+    "body_position": "chest_supported",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "mid_back",
+      "latissimus_dorsi"
+    ],
+    "secondary_muscles": [
+      "biceps",
+      "rear_deltoid"
+    ],
+    "stabilizers": [],
+    "direct_load_weights": {
+      "mid_back": 1.0,
+      "latissimus_dorsi": 0.6
+    },
+    "indirect_load_weights": {
+      "biceps": 0.5,
+      "rear_deltoid": 0.4
+    },
+    "muscle_length_profile": "mixed",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 5,
+    "technical_complexity": 2,
+    "learning_difficulty": 2,
+    "stability_requirement": 1,
+    "coordination_requirement": 2,
+    "mobility_requirement": 1,
+    "fatigue_cost": 3,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "3",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Tõmba kontrollitult, hoia lõppasendis hetk ja lase aeglaselt tagasi.",
+    "instructions_et": "Toeta rind padjale ja haara käepidemetest. Tõmba käepidemed keha suunas, viies abaluud kokku. Lase käed kontrollitult tagasi.",
+    "breathing_et": "Hinga välja tõmmates ja sisse tagasi lastes.",
+    "common_mistakes_et": [
+      "Rind tõuseb toest eemale",
+      "Õlad tõusevad",
+      "Liigutus tehakse hooga",
+      "Tõmme toimub ainult kätega"
+    ],
+    "coaching_cues_et": [
+      "Hoia rind toel",
+      "Abaluud kokku",
+      "Küünarnukid taha",
+      "Tunneta selga"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "selja keskosa"
+      ],
+      "may_feel": [
+        "lai seljalihas",
+        "biitseps",
+        "tagumine õlg"
+      ],
+      "should_not_feel": [
+        "alaseljavalu",
+        "kaelapinge"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "shoulder_pain"
+    ],
+    "alternatives": [
+      "Seated Cable Row",
+      "Machine Row",
+      "One Arm Dumbbell Row"
+    ],
+    "progression_candidates": [
+      "Barbell Row"
+    ],
+    "regression_candidates": [
+      "Machine Row"
+    ],
+    "substitution_group": "horizontal_pull_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_push_h_001",
+    "name_et": "Rinnalt surumine masinal",
+    "name_en": "Machine Chest Press",
+    "movement_pattern_primary": "horizontal_push",
+    "movement_pattern_secondary": [
+      "elbow_extension",
+      "shoulder_flexion"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "horizontal_upper_body_push",
+    "exercise_type": "compound",
+    "equipment_primary": "machine",
+    "equipment_secondary": [],
+    "body_position": "seated",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "pectoralis_major"
+    ],
+    "secondary_muscles": [
+      "triceps",
+      "anterior_deltoid"
+    ],
+    "stabilizers": [
+      "core"
+    ],
+    "direct_load_weights": {
+      "pectoralis_major": 1.0
+    },
+    "indirect_load_weights": {
+      "triceps": 0.5,
+      "anterior_deltoid": 0.5,
+      "core": 0.1
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 2,
+    "learning_difficulty": 2,
+    "stability_requirement": 1,
+    "coordination_requirement": 2,
+    "mobility_requirement": 2,
+    "fatigue_cost": 3,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "3",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90",
+    "tempo_numeric": "3-0-1-0",
+    "tempo_text_et": "Langeta käepidemed kontrollitult ja suru jõuliselt ette.",
+    "instructions_et": "Istu masinale, aseta selg vastu tuge ja haara käepidemetest. Suru käepidemed ette, hoides õlad kontrolli all. Lase käed aeglaselt tagasi, kuni tunned rinnalihases venitust.",
+    "breathing_et": "Hinga sisse raskust tagasi lastes ja välja surudes.",
+    "common_mistakes_et": [
+      "Õlad tõusevad",
+      "Küünarnukid liiguvad liiga kõrgele",
+      "Raskus põrgatatakse tagasi",
+      "Liigutus jääb lühikeseks"
+    ],
+    "coaching_cues_et": [
+      "Õlad alla ja taha",
+      "Suru rindkerega",
+      "Kontrolli tagasiteed",
+      "Ära lukusta küünarnukke järsult"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "rinnalihas"
+      ],
+      "may_feel": [
+        "triitseps",
+        "eesmine õlg"
+      ],
+      "should_not_feel": [
+        "õlavalu",
+        "kaelapinge"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "shoulder_pain"
+    ],
+    "alternatives": [
+      "Dumbbell Bench Press",
+      "Barbell Bench Press",
+      "Push-up",
+      "Cable Chest Press"
+    ],
+    "progression_candidates": [
+      "Dumbbell Bench Press",
+      "Barbell Bench Press"
+    ],
+    "regression_candidates": [
+      "Incline Push-up"
+    ],
+    "substitution_group": "horizontal_push_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_push_h_002",
+    "name_et": "Hantlitega rinnalt surumine pingil",
+    "name_en": "Dumbbell Bench Press",
+    "movement_pattern_primary": "horizontal_push",
+    "movement_pattern_secondary": [
+      "elbow_extension",
+      "shoulder_flexion"
+    ],
+    "training_function": "primary_compound",
+    "biomechanical_function": "horizontal_upper_body_push_free_weight",
+    "exercise_type": "compound",
+    "equipment_primary": "dumbbell",
+    "equipment_secondary": [
+      "bench"
+    ],
+    "body_position": "supine",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "pectoralis_major"
+    ],
+    "secondary_muscles": [
+      "triceps",
+      "anterior_deltoid"
+    ],
+    "stabilizers": [
+      "core",
+      "rotator_cuff"
+    ],
+    "direct_load_weights": {
+      "pectoralis_major": 1.0
+    },
+    "indirect_load_weights": {
+      "triceps": 0.5,
+      "anterior_deltoid": 0.5,
+      "rotator_cuff": 0.3
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 3,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 5,
+    "technical_complexity": 3,
+    "learning_difficulty": 3,
+    "stability_requirement": 4,
+    "coordination_requirement": 3,
+    "mobility_requirement": 2,
+    "fatigue_cost": 3,
+    "time_cost": 3,
+    "setup_time": "moderate",
+    "default_sets": "3",
+    "default_reps": "8-12",
+    "default_rest_seconds": "90",
+    "tempo_numeric": "3-0-1-0",
+    "tempo_text_et": "Langeta hantlid kontrollitult ja suru üles jõuliselt.",
+    "instructions_et": "Lama pingil, hantlid kätes. Langeta hantlid kontrollitult rindkere kõrvale, hoides küünarnukid kehast mõõdukalt eemal. Suru hantlid üles, hoides õlad stabiilsed.",
+    "breathing_et": "Hinga sisse hantleid langetades ja välja üles surudes.",
+    "common_mistakes_et": [
+      "Hantlid liiguvad liiga laiali",
+      "Õlad tõusevad pingilt",
+      "Randmed murduvad",
+      "Liiga suur raskus vähendab kontrolli"
+    ],
+    "coaching_cues_et": [
+      "Õlad alla ja taha",
+      "Randmed sirged",
+      "Kontrolli mõlemat hantlit",
+      "Suru rinnaga"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "rinnalihas"
+      ],
+      "may_feel": [
+        "triitseps",
+        "eesmine õlg"
+      ],
+      "should_not_feel": [
+        "õlavalu",
+        "randmevalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "shoulder_pain",
+      "wrist_discomfort"
+    ],
+    "alternatives": [
+      "Machine Chest Press",
+      "Barbell Bench Press",
+      "Push-up"
+    ],
+    "progression_candidates": [
+      "Barbell Bench Press"
+    ],
+    "regression_candidates": [
+      "Machine Chest Press",
+      "Incline Push-up"
+    ],
+    "substitution_group": "horizontal_push_compound",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_push_h_003",
+    "name_et": "Pec deck rinnalihase harjutus",
+    "name_en": "Pec Deck Fly",
+    "movement_pattern_primary": "horizontal_push",
+    "movement_pattern_secondary": [
+      "shoulder_horizontal_adduction"
+    ],
+    "training_function": "isolation",
+    "biomechanical_function": "shoulder_horizontal_adduction",
+    "exercise_type": "isolation",
+    "equipment_primary": "machine",
+    "equipment_secondary": [],
+    "body_position": "seated",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "pectoralis_major"
+    ],
+    "secondary_muscles": [
+      "anterior_deltoid"
+    ],
+    "stabilizers": [],
+    "direct_load_weights": {
+      "pectoralis_major": 1.0
+    },
+    "indirect_load_weights": {
+      "anterior_deltoid": 0.2
+    },
+    "muscle_length_profile": "lengthened",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 1,
+    "learning_difficulty": 1,
+    "stability_requirement": 1,
+    "coordination_requirement": 1,
+    "mobility_requirement": 2,
+    "fatigue_cost": 2,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "2-3",
+    "default_reps": "10-15",
+    "default_rest_seconds": "60",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Ava käed kontrollitult ja too käed kokku rinnalihase pingega.",
+    "instructions_et": "Istu masinale, toeta selg vastu tuge ja haara käepidemetest või aseta käsivarred padjadele. Too käed kontrollitult kokku, hoia hetk ja lase tagasi kuni rinnalihases on mugav venitus.",
+    "breathing_et": "Hinga välja käsi kokku tuues ja sisse tagasi avades.",
+    "common_mistakes_et": [
+      "Liiga suur raskus",
+      "Õlad tõusevad",
+      "Käed põrgatatakse tagasi",
+      "Liigutus tehakse hooga"
+    ],
+    "coaching_cues_et": [
+      "Tunneta rinnalihast",
+      "Hoia õlad all",
+      "Kontrolli venitust",
+      "Ära kasuta hoogu"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "rinnalihas"
+      ],
+      "may_feel": [
+        "eesmine õlg vähesel määral"
+      ],
+      "should_not_feel": [
+        "õlavalu",
+        "kaelapinge"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "shoulder_pain"
+    ],
+    "alternatives": [
+      "Cable Fly",
+      "Dumbbell Fly",
+      "Machine Chest Press"
+    ],
+    "progression_candidates": [
+      "Cable Fly"
+    ],
+    "regression_candidates": [
+      "Light Pec Deck"
+    ],
+    "substitution_group": "chest_isolation",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_shoulder_001",
+    "name_et": "Õlalihase külgtõste hantlitega",
+    "name_en": "Dumbbell Lateral Raise",
+    "movement_pattern_primary": "shoulder_abduction",
+    "movement_pattern_secondary": [],
+    "training_function": "isolation",
+    "biomechanical_function": "shoulder_abduction",
+    "exercise_type": "isolation",
+    "equipment_primary": "dumbbell",
+    "equipment_secondary": [],
+    "body_position": "standing_or_seated",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "lateral_deltoid"
+    ],
+    "secondary_muscles": [
+      "supraspinatus"
+    ],
+    "stabilizers": [
+      "core",
+      "upper_trapezius"
+    ],
+    "direct_load_weights": {
+      "lateral_deltoid": 1.0
+    },
+    "indirect_load_weights": {
+      "supraspinatus": 0.3,
+      "upper_trapezius": 0.2,
+      "core": 0.1
+    },
+    "muscle_length_profile": "mid_range",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 5,
+    "technical_complexity": 2,
+    "learning_difficulty": 2,
+    "stability_requirement": 2,
+    "coordination_requirement": 2,
+    "mobility_requirement": 1,
+    "fatigue_cost": 2,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "2-3",
+    "default_reps": "10-15",
+    "default_rest_seconds": "60",
+    "tempo_numeric": "2-0-2-0",
+    "tempo_text_et": "Tõsta hantlid kontrollitult külgedele ja langeta aeglaselt tagasi.",
+    "instructions_et": "Hoia hantleid keha kõrval. Tõsta käed külgedele umbes õlakõrguseni, hoides küünarnukid kergelt painutatud. Langeta hantlid kontrollitult tagasi.",
+    "breathing_et": "Hinga välja hantleid tõstes ja sisse langetades.",
+    "common_mistakes_et": [
+      "Õlad tõusevad kõrvade juurde",
+      "Liiga suur raskus",
+      "Keha kõigub",
+      "Käed tõstetakse liiga kõrgele"
+    ],
+    "coaching_cues_et": [
+      "Tõsta küünarnukiga",
+      "Õlad alla",
+      "Väike raskus, hea kontroll",
+      "Ära hooga kiiguta"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "õla külgmine osa"
+      ],
+      "may_feel": [
+        "ülemine trapets vähesel määral"
+      ],
+      "should_not_feel": [
+        "kaelapinge",
+        "õlavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "shoulder_pain",
+      "neck_tension"
+    ],
+    "alternatives": [
+      "Machine Lateral Raise",
+      "Cable Lateral Raise",
+      "Lean Away Lateral Raise"
+    ],
+    "progression_candidates": [
+      "Cable Lateral Raise"
+    ],
+    "regression_candidates": [
+      "Machine Lateral Raise"
+    ],
+    "substitution_group": "lateral_deltoid_isolation",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_shoulder_002",
+    "name_et": "Face pull köiega",
+    "name_en": "Cable Face Pull",
+    "movement_pattern_primary": "horizontal_pull",
+    "movement_pattern_secondary": [
+      "rear_deltoid",
+      "scapular_retraction"
+    ],
+    "training_function": "accessory",
+    "biomechanical_function": "rear_deltoid_external_rotation_pull",
+    "exercise_type": "accessory",
+    "equipment_primary": "cable",
+    "equipment_secondary": [
+      "rope"
+    ],
+    "body_position": "standing",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "rear_deltoid",
+      "mid_trapezius"
+    ],
+    "secondary_muscles": [
+      "rotator_cuff",
+      "rhomboids"
+    ],
+    "stabilizers": [
+      "core"
+    ],
+    "direct_load_weights": {
+      "rear_deltoid": 1.0,
+      "mid_trapezius": 0.7,
+      "rhomboids": 0.5
+    },
+    "indirect_load_weights": {
+      "rotator_cuff": 0.4,
+      "core": 0.2
+    },
+    "muscle_length_profile": "shortened",
+    "beginner_suitability": 4,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 5,
+    "technical_complexity": 3,
+    "learning_difficulty": 3,
+    "stability_requirement": 2,
+    "coordination_requirement": 3,
+    "mobility_requirement": 2,
+    "fatigue_cost": 2,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "2-3",
+    "default_reps": "10-15",
+    "default_rest_seconds": "60",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Tõmba köis näo suunas, hoia hetk ja lase kontrollitult tagasi.",
+    "instructions_et": "Kinnita köis plokile umbes näo kõrgusele. Tõmba köis näo suunas, viies küünarnukid külgedele ja abaluud kokku. Lase käed kontrollitult tagasi.",
+    "breathing_et": "Hinga välja tõmmates ja sisse tagasi lastes.",
+    "common_mistakes_et": [
+      "Alaselg läheb nõgusaks",
+      "Õlad tõusevad",
+      "Tõmme tehakse ainult kätega",
+      "Liiga suur raskus"
+    ],
+    "coaching_cues_et": [
+      "Tõmba köis näo suunas",
+      "Küünarnukid laiali",
+      "Abaluud kokku",
+      "Õlad alla"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "tagumine õlg",
+        "selja ülaosa"
+      ],
+      "may_feel": [
+        "rotaatormansett"
+      ],
+      "should_not_feel": [
+        "kaelavalu",
+        "õlavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "shoulder_pain",
+      "neck_tension"
+    ],
+    "alternatives": [
+      "Reverse Pec Deck",
+      "Rear Delt Cable Fly",
+      "Band Face Pull"
+    ],
+    "progression_candidates": [
+      "Cable Rear Delt Fly"
+    ],
+    "regression_candidates": [
+      "Band Face Pull"
+    ],
+    "substitution_group": "rear_deltoid_upper_back_accessory",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_arm_001",
+    "name_et": "Triitsepsi allasurumine köiega",
+    "name_en": "Cable Rope Triceps Pushdown",
+    "movement_pattern_primary": "elbow_extension",
+    "movement_pattern_secondary": [],
+    "training_function": "isolation",
+    "biomechanical_function": "elbow_extension",
+    "exercise_type": "isolation",
+    "equipment_primary": "cable",
+    "equipment_secondary": [
+      "rope"
+    ],
+    "body_position": "standing",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "triceps"
+    ],
+    "secondary_muscles": [],
+    "stabilizers": [
+      "core"
+    ],
+    "direct_load_weights": {
+      "triceps": 1.0
+    },
+    "indirect_load_weights": {
+      "core": 0.1
+    },
+    "muscle_length_profile": "shortened",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 1,
+    "learning_difficulty": 1,
+    "stability_requirement": 1,
+    "coordination_requirement": 1,
+    "mobility_requirement": 1,
+    "fatigue_cost": 1,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "2",
+    "default_reps": "10-15",
+    "default_rest_seconds": "60",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Suru köis alla, hoia lõppasendis hetk ja lase kontrollitult tagasi.",
+    "instructions_et": "Seisa ploki ees ja hoia köit. Hoia küünarnukid keha lähedal ning suru köis alla, kuni küünarnukid sirutuvad. Lase käed kontrollitult tagasi.",
+    "breathing_et": "Hinga välja alla surudes ja sisse tagasi lastes.",
+    "common_mistakes_et": [
+      "Küünarnukid liiguvad ette-taha",
+      "Keha kõigub",
+      "Õlad tõusevad",
+      "Liigutus tehakse hooga"
+    ],
+    "coaching_cues_et": [
+      "Küünarnukid paigal",
+      "Suru köis alla ja lahku",
+      "Kontrolli tagasiteed",
+      "Tunneta triitsepsit"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "triitseps"
+      ],
+      "may_feel": [],
+      "should_not_feel": [
+        "küünarnukivalu",
+        "õlavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "elbow_pain"
+    ],
+    "alternatives": [
+      "Straight Bar Pushdown",
+      "Overhead Cable Triceps Extension",
+      "Machine Triceps Extension"
+    ],
+    "progression_candidates": [
+      "Overhead Triceps Extension"
+    ],
+    "regression_candidates": [
+      "Light Cable Pushdown"
+    ],
+    "substitution_group": "triceps_isolation",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_arm_002",
+    "name_et": "Biitsepsikõverdus hantlitega",
+    "name_en": "Dumbbell Biceps Curl",
+    "movement_pattern_primary": "elbow_flexion",
+    "movement_pattern_secondary": [],
+    "training_function": "isolation",
+    "biomechanical_function": "elbow_flexion",
+    "exercise_type": "isolation",
+    "equipment_primary": "dumbbell",
+    "equipment_secondary": [],
+    "body_position": "standing_or_seated",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "open_chain",
+    "primary_muscles": [
+      "biceps"
+    ],
+    "secondary_muscles": [
+      "brachialis",
+      "forearms"
+    ],
+    "stabilizers": [
+      "core"
+    ],
+    "direct_load_weights": {
+      "biceps": 1.0,
+      "brachialis": 0.4
+    },
+    "indirect_load_weights": {
+      "forearms": 0.3,
+      "core": 0.1
+    },
+    "muscle_length_profile": "mixed",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 1,
+    "learning_difficulty": 1,
+    "stability_requirement": 1,
+    "coordination_requirement": 1,
+    "mobility_requirement": 1,
+    "fatigue_cost": 1,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "2",
+    "default_reps": "10-15",
+    "default_rest_seconds": "60",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Kõverda käed kontrollitult, hoia hetk ja langeta aeglaselt.",
+    "instructions_et": "Hoia hantleid keha kõrval. Kõverda küünarnukke, hoides õlavarred paigal. Langeta hantlid aeglaselt tagasi algasendisse.",
+    "breathing_et": "Hinga välja hantleid tõstes ja sisse langetades.",
+    "common_mistakes_et": [
+      "Keha kiigub",
+      "Küünarnukid liiguvad ette",
+      "Raskus langetatakse liiga kiiresti",
+      "Õlad tõusevad"
+    ],
+    "coaching_cues_et": [
+      "Küünarnukid paigal",
+      "Kontrolli langetust",
+      "Ära kasuta hoogu",
+      "Tunneta biitsepsit"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "biitseps"
+      ],
+      "may_feel": [
+        "küünarvars"
+      ],
+      "should_not_feel": [
+        "küünarnukivalu",
+        "õlavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "elbow_pain",
+      "wrist_discomfort"
+    ],
+    "alternatives": [
+      "Cable Biceps Curl",
+      "Machine Biceps Curl",
+      "Hammer Curl"
+    ],
+    "progression_candidates": [
+      "Cable Curl"
+    ],
+    "regression_candidates": [
+      "Light Dumbbell Curl"
+    ],
+    "substitution_group": "biceps_isolation",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_core_001",
+    "name_et": "Pallofi surumine plokksüsteemil",
+    "name_en": "Cable Pallof Press",
+    "movement_pattern_primary": "anti_rotation",
+    "movement_pattern_secondary": [
+      "core_stability"
+    ],
+    "training_function": "core",
+    "biomechanical_function": "anti_rotation_core",
+    "exercise_type": "core",
+    "equipment_primary": "cable",
+    "equipment_secondary": [
+      "resistance_band"
+    ],
+    "body_position": "standing",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "not_applicable",
+    "primary_muscles": [
+      "obliques",
+      "transverse_abdominis"
+    ],
+    "secondary_muscles": [
+      "rectus_abdominis",
+      "gluteus_medius"
+    ],
+    "stabilizers": [
+      "shoulder_stabilizers"
+    ],
+    "direct_load_weights": {
+      "obliques": 1.0,
+      "transverse_abdominis": 0.8
+    },
+    "indirect_load_weights": {
+      "rectus_abdominis": 0.4,
+      "gluteus_medius": 0.3,
+      "shoulder_stabilizers": 0.2
+    },
+    "muscle_length_profile": "not_applicable",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 4,
+    "technical_complexity": 2,
+    "learning_difficulty": 2,
+    "stability_requirement": 3,
+    "coordination_requirement": 2,
+    "mobility_requirement": 1,
+    "fatigue_cost": 2,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "2",
+    "default_reps": "10-15/side",
+    "default_rest_seconds": "60",
+    "tempo_numeric": "2-1-2-1",
+    "tempo_text_et": "Suru käed kontrollitult ette, hoia kere paigal ja too käed tagasi.",
+    "instructions_et": "Seisa küljega ploki poole, käepide rindkere ees. Suru käed sirgeks, hoides kere paigal ja mitte lastes plokil keha pöörata. Too käed kontrollitult tagasi.",
+    "breathing_et": "Hinga välja käsi ette surudes ja sisse tagasi tuues.",
+    "common_mistakes_et": [
+      "Keha pöördub kaasa",
+      "Õlad tõusevad",
+      "Liiga suur raskus",
+      "Puusad liiguvad küljelt küljele"
+    ],
+    "coaching_cues_et": [
+      "Hoia kere paigal",
+      "Ära lase raskusel end pöörata",
+      "Kõht pinges",
+      "Suru aeglaselt"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "kere külgmised lihased",
+        "sügavad kõhulihased"
+      ],
+      "may_feel": [
+        "õlavöö stabiliseerijad"
+      ],
+      "should_not_feel": [
+        "alaseljavalu",
+        "õlavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "low_back_pain",
+      "shoulder_pain"
+    ],
+    "alternatives": [
+      "Band Pallof Press",
+      "Half Kneeling Pallof Press",
+      "Cable Anti-Rotation Hold"
+    ],
+    "progression_candidates": [
+      "Pallof Press Hold",
+      "Tall Kneeling Pallof Press"
+    ],
+    "regression_candidates": [
+      "Band Pallof Press"
+    ],
+    "substitution_group": "core_anti_rotation",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_core_002",
+    "name_et": "Kõhulihaste surumine plokil",
+    "name_en": "Cable Crunch",
+    "movement_pattern_primary": "spinal_flexion",
+    "movement_pattern_secondary": [
+      "core"
+    ],
+    "training_function": "core",
+    "biomechanical_function": "loaded_spinal_flexion",
+    "exercise_type": "core",
+    "equipment_primary": "cable",
+    "equipment_secondary": [
+      "rope"
+    ],
+    "body_position": "kneeling",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "not_applicable",
+    "primary_muscles": [
+      "rectus_abdominis"
+    ],
+    "secondary_muscles": [
+      "obliques"
+    ],
+    "stabilizers": [],
+    "direct_load_weights": {
+      "rectus_abdominis": 1.0,
+      "obliques": 0.3
+    },
+    "indirect_load_weights": {},
+    "muscle_length_profile": "shortened",
+    "beginner_suitability": 4,
+    "intermediate_suitability": 5,
+    "advanced_suitability": 5,
+    "technical_complexity": 2,
+    "learning_difficulty": 2,
+    "stability_requirement": 2,
+    "coordination_requirement": 2,
+    "mobility_requirement": 1,
+    "fatigue_cost": 2,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "2",
+    "default_reps": "10-15",
+    "default_rest_seconds": "60",
+    "tempo_numeric": "2-1-1-1",
+    "tempo_text_et": "Painuta kere kontrollitult, hoia lõppasendis hetk ja tõuse aeglaselt tagasi.",
+    "instructions_et": "Kinnita köis ülemisele plokile ja põlvita ploki ette. Hoia köit pea juures. Painuta kere kontrollitult alla, tuues rinnakorvi vaagna suunas. Tõuse aeglaselt tagasi.",
+    "breathing_et": "Hinga välja kõhulihaseid pingutades ja sisse tagasi tõustes.",
+    "common_mistakes_et": [
+      "Liigutus tuleb puusast, mitte kõhust",
+      "Käed tõmbavad raskust",
+      "Liiga suur raskus",
+      "Kael pinges"
+    ],
+    "coaching_cues_et": [
+      "Rinnakorv vaagna suunas",
+      "Tunneta kõhtu",
+      "Puusad paigal",
+      "Ära tõmba kätega"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "sirglihas"
+      ],
+      "may_feel": [
+        "kere külgmised lihased"
+      ],
+      "should_not_feel": [
+        "kaelavalu",
+        "alaseljavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "low_back_pain",
+      "neck_tension"
+    ],
+    "alternatives": [
+      "Machine Crunch",
+      "Mat Crunch",
+      "Stability Ball Crunch"
+    ],
+    "progression_candidates": [
+      "Heavier Cable Crunch"
+    ],
+    "regression_candidates": [
+      "Mat Crunch"
+    ],
+    "substitution_group": "core_flexion",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  },
+  {
+    "exercise_id": "ex_core_003",
+    "name_et": "Plank",
+    "name_en": "Plank",
+    "movement_pattern_primary": "anti_extension",
+    "movement_pattern_secondary": [
+      "core_stability"
+    ],
+    "training_function": "core",
+    "biomechanical_function": "anti_extension_core",
+    "exercise_type": "core",
+    "equipment_primary": "bodyweight",
+    "equipment_secondary": [],
+    "body_position": "prone",
+    "bilateral_unilateral": "bilateral",
+    "open_closed_chain": "closed_chain",
+    "primary_muscles": [
+      "transverse_abdominis",
+      "rectus_abdominis"
+    ],
+    "secondary_muscles": [
+      "obliques",
+      "gluteus_maximus"
+    ],
+    "stabilizers": [
+      "shoulder_stabilizers"
+    ],
+    "direct_load_weights": {
+      "transverse_abdominis": 1.0,
+      "rectus_abdominis": 0.7
+    },
+    "indirect_load_weights": {
+      "obliques": 0.4,
+      "gluteus_maximus": 0.3,
+      "shoulder_stabilizers": 0.3
+    },
+    "muscle_length_profile": "not_applicable",
+    "beginner_suitability": 5,
+    "intermediate_suitability": 4,
+    "advanced_suitability": 3,
+    "technical_complexity": 2,
+    "learning_difficulty": 2,
+    "stability_requirement": 3,
+    "coordination_requirement": 2,
+    "mobility_requirement": 1,
+    "fatigue_cost": 2,
+    "time_cost": 2,
+    "setup_time": "low",
+    "default_sets": "2",
+    "default_reps": "20-45 sec",
+    "default_rest_seconds": "60",
+    "tempo_numeric": "hold",
+    "tempo_text_et": "Hoia asendit kontrollitult, säilitades ühtlase hingamise.",
+    "instructions_et": "Toeta küünarvarred ja varbad põrandale. Hoia keha sirge, kõht ja tuharad kergelt pinges. Ära lase alaseljal nõgusaks vajuda.",
+    "breathing_et": "Hinga rahulikult ja ühtlaselt kogu hoidmise ajal.",
+    "common_mistakes_et": [
+      "Alaselg vajub nõgusaks",
+      "Puusad tõusevad liiga kõrgele",
+      "Õlad vajuvad kokku",
+      "Hinge kinni hoidmine"
+    ],
+    "coaching_cues_et": [
+      "Kõht pinges",
+      "Tuharad kergelt pinges",
+      "Keha sirge",
+      "Hinga rahulikult"
+    ],
+    "what_to_feel_et": {
+      "should_feel": [
+        "sügavad kõhulihased",
+        "kere eesmine osa"
+      ],
+      "may_feel": [
+        "õlavöö",
+        "tuharad"
+      ],
+      "should_not_feel": [
+        "alaseljavalu",
+        "õlavalu"
+      ]
+    },
+    "contraindications": [],
+    "caution_flags": [
+      "low_back_pain",
+      "shoulder_pain"
+    ],
+    "alternatives": [
+      "Incline Plank",
+      "Dead Bug",
+      "Body Saw"
+    ],
+    "progression_candidates": [
+      "Body Saw",
+      "Weighted Plank"
+    ],
+    "regression_candidates": [
+      "Incline Plank",
+      "Knee Plank"
+    ],
+    "substitution_group": "core_anti_extension",
+    "evidence_ids": [],
+    "client_visible": true,
+    "status": "draft",
+    "version": "1.0"
+  }
+]
