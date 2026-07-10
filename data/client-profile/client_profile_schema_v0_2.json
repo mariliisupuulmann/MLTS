@@ -1,0 +1,32 @@
+{
+  "client_id": "",
+  "service_type": [
+    "personal_training",
+    "hybrid",
+    "training_plan_only"
+  ],
+  "training_level": [
+    "beginner",
+    "intermediate",
+    "advanced"
+  ],
+  "technical_skill_level": [
+    "low",
+    "moderate",
+    "high"
+  ],
+  "sessions_per_week": null,
+  "session_duration_minutes": null,
+  "goal_primary": "",
+  "goals_secondary": [],
+  "limitations": [],
+  "pain_areas": [],
+  "injuries": [],
+  "sport_or_lifestyle_context": [],
+  "age_group": "",
+  "sex": "",
+  "equipment_context_known": false,
+  "preferences": [],
+  "avoid_exercises": [],
+  "coach_notes": ""
+}

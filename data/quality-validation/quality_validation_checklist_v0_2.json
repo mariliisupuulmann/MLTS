@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "id": "QC-001",
+      "name": "Safety check",
+      "required": true
+    },
+    {
+      "id": "QC-002",
+      "name": "Session duration check",
+      "required": true
+    },
+    {
+      "id": "QC-003",
+      "name": "Movement pattern coverage",
+      "required": true
+    },
+    {
+      "id": "QC-004",
+      "name": "Direct and indirect muscle load balance",
+      "required": true
+    },
+    {
+      "id": "QC-005",
+      "name": "Exercise difficulty suitability",
+      "required": true
+    },
+    {
+      "id": "QC-006",
+      "name": "Progression possible",
+      "required": true
+    },
+    {
+      "id": "QC-007",
+      "name": "No unnecessary duplication",
+      "required": true
+    },
+    {
+      "id": "QC-008",
+      "name": "Alternatives available",
+      "required": false
+    },
+    {
+      "id": "QC-009",
+      "name": "Client instructions separated from internal logic",
+      "required": true
+    }
+  ],
+  "final_question": "Kas Mari-Liisu koostaks selle treeningkava ka käsitsi?"
+}

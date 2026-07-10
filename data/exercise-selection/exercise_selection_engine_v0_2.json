@@ -1,0 +1,36 @@
+{
+  "selection_priority_order": [
+    "safety",
+    "client_goal_context",
+    "movement_pattern_coverage",
+    "muscle_coverage",
+    "time_efficiency",
+    "learning_suitability",
+    "client_preference"
+  ],
+  "required_full_body_patterns": [
+    "knee_dominant",
+    "hip_dominant",
+    "vertical_or_horizontal_pull",
+    "horizontal_or_vertical_push",
+    "core_optional"
+  ],
+  "default_order_full_body": [
+    "lower_body_compound",
+    "lower_body_accessory",
+    "vertical_pull",
+    "horizontal_pull",
+    "chest_press",
+    "shoulder_lateral_or_rear",
+    "arms_optional",
+    "core_optional"
+  ],
+  "removal_priority_when_time_exceeded": [
+    "duplicated_function",
+    "isolation_with_indirect_load_already_covered",
+    "small_muscle_accessory",
+    "core_optional",
+    "compound_last"
+  ],
+  "substitution_principle": "Replace function, not name. Preserve biomechanical function and training function first."
+}

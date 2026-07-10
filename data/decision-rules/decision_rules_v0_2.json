@@ -1,0 +1,974 @@
+[
+  {
+    "id": "DR-001",
+    "title": "Full Body vaikereegel",
+    "category": "training_split",
+    "rule": "1–3 treeningut nädalas tähendab vaikimisi Full Body treeningjaotust.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-002",
+    "title": "Split alates 4 treeningust",
+    "category": "training_split",
+    "rule": "4+ treeningut nädalas võimaldab kasutada split-jaotust.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-003",
+    "title": "3x nädalas hübriid",
+    "category": "training_split",
+    "rule": "3 treeningu korral võib kasutada Upper / Lower / Full Body hübriidjaotust, kui see sobib kliendi tasemele ja eesmärgile.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-004",
+    "title": "Personaaltreeningu kestus",
+    "category": "service_logic",
+    "rule": "Personaaltreening ja hübriidkava on vaikimisi 60 minutit.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-005",
+    "title": "Ainult treeningkava kestus",
+    "category": "service_logic",
+    "rule": "Kui klient ostab ainult treeningkava, lähtutakse kliendi antud soovitud treeningu kestusest.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-006",
+    "title": "Ajutine ajapuudus",
+    "category": "time_engine",
+    "rule": "Kui 60-minutilise kava tegemiseks on konkreetsel päeval ainult 30 minutit, tehakse kõik harjutused läbi, kuid vähendatakse seeriaid.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-007",
+    "title": "Püsiv 30 min kava",
+    "category": "time_engine",
+    "rule": "Kui kava koostataksegi 30 minutiks, valitakse compound-harjutused ja 2–3 seeriat.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-008",
+    "title": "Harjutuste minimaalne seeriate arv",
+    "category": "volume_engine",
+    "rule": "Kui harjutus jääb kavasse, ei anta sellele alla 2 tööseeria.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-009",
+    "title": "Compound seeriad",
+    "category": "volume_engine",
+    "rule": "Primary compound harjutused saavad tavaliselt 3–4 tööseeriat.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-010",
+    "title": "Accessory seeriad",
+    "category": "volume_engine",
+    "rule": "Accessory harjutused saavad tavaliselt 2–3 tööseeriat.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-011",
+    "title": "Isolation seeriad",
+    "category": "volume_engine",
+    "rule": "Isolation harjutused saavad vähemalt 2 tööseeriat.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-012",
+    "title": "Vaikimisi kordused",
+    "category": "repetition_engine",
+    "rule": "Üldise hüpertroofia/toonuse eesmärgil kasutatakse compound- ja accessory-harjutustel enamasti 8–12 kordust.",
+    "priority": "medium",
+    "source_type": "science_plus_coach",
+    "client_visible": false
+  },
+  {
+    "id": "DR-013",
+    "title": "Isolation kordused",
+    "category": "repetition_engine",
+    "rule": "Isolation-harjutustel kasutatakse enamasti 10–15 kordust.",
+    "priority": "medium",
+    "source_type": "science_plus_coach",
+    "client_visible": false
+  },
+  {
+    "id": "DR-014",
+    "title": "Jõueesmärk",
+    "category": "repetition_engine",
+    "rule": "Jõueesmärgi korral kasutatakse vähem kordusi ja rohkem seeriaid, näiteks 4–8 seeriat ja 4–6 kordust.",
+    "priority": "medium",
+    "source_type": "science",
+    "client_visible": false
+  },
+  {
+    "id": "DR-015",
+    "title": "Puhkepaus compound",
+    "category": "rest_engine",
+    "rule": "Compound-harjutustel soovitatakse 90–120 sekundit puhkust.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-016",
+    "title": "Puhkepaus accessory",
+    "category": "rest_engine",
+    "rule": "Accessory-harjutustel soovitatakse 60–90 sekundit puhkust.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-017",
+    "title": "Puhkepaus isolation",
+    "category": "rest_engine",
+    "rule": "Isolation-harjutustel soovitatakse umbes 60 sekundit puhkust.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-018",
+    "title": "Puhkepaus on soovitus",
+    "category": "rest_engine",
+    "rule": "Puhkepaus kuvatakse kliendile soovitusena, mitte range reeglina.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-019",
+    "title": "Harjutuste järjestus",
+    "category": "exercise_order",
+    "rule": "Full Body treeningus järjestatakse harjutused: alakeha → selg → rind → õlad → käed → kerelihased.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-020",
+    "title": "Alakeha järjestus",
+    "category": "exercise_order",
+    "rule": "Kui treeningus on põlvedominantne ja puusadominantne compound, tehakse esmalt põlvedominantne.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-021",
+    "title": "Seljaharjutuste järjestus",
+    "category": "exercise_order",
+    "rule": "Kui treeningus on vertikaalne ja horisontaalne tõmme, tehakse vaikimisi esmalt vertikaalne tõmme.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-022",
+    "title": "Rind compound enne isolation",
+    "category": "exercise_order",
+    "rule": "Rinnaharjutustel tehakse esmalt press/surumine ja seejärel fly/pec deck tüüpi isolatsioon.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-023",
+    "title": "Õla prioriteet",
+    "category": "exercise_selection",
+    "rule": "Kui treeningus on ruumi ainult ühele õlaharjutusele, eelistatakse külgmist õlaosa.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-024",
+    "title": "Käeharjutuse prioriteet",
+    "category": "exercise_selection",
+    "rule": "Kui Full Body treeningus on ruumi ainult ühele käeharjutusele, eelistatakse tavaliselt triitsepsit.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-025",
+    "title": "Kerelihased 1x",
+    "category": "core_engine",
+    "rule": "Kui treeninguid on 1x nädalas, valitakse kerelihastele võimalikult mitut funktsiooni kattev ja progresseeritav harjutus.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-026",
+    "title": "Kerelihased 2x",
+    "category": "core_engine",
+    "rule": "Kui treeninguid on 2x nädalas, kasutatakse ühes treeningus painutust ja teises rotatsiooni/antirotatsiooni.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-027",
+    "title": "Sääred",
+    "category": "exercise_selection",
+    "rule": "Sääreharjutused lisatakse siis, kui treeningus on ajaliselt ruumi või kliendi eesmärk/spordiala seda nõuab.",
+    "priority": "low",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-028",
+    "title": "Haare",
+    "category": "exercise_selection",
+    "rule": "Eraldi haardeharjutusi vaikimisi ei lisata, v.a kui eesmärk või spordiala seda nõuab.",
+    "priority": "low",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-029",
+    "title": "Kael",
+    "category": "exercise_selection",
+    "rule": "Kaelalihaste harjutusi üldiselt ei lisata.",
+    "priority": "low",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-030",
+    "title": "Küünarvarred",
+    "category": "exercise_selection",
+    "rule": "Küünarvarreharjutusi lisatakse harva ja peamiselt siis, kui klient soovib käsi prioriseerida.",
+    "priority": "low",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-031",
+    "title": "Trapets",
+    "category": "exercise_selection",
+    "rule": "Trapetsilihaste eraldi treenimine sõltub kliendi eesmärgist.",
+    "priority": "low",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-032",
+    "title": "Tuharate prioriseerimine",
+    "category": "goal_specific",
+    "rule": "Tuharate prioriseerimisel arvestatakse kõigi kolme tuhara osa koormusega, mitte ainult hip thrust'i lisamisega.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-033",
+    "title": "Rinnalihased naiskliendil",
+    "category": "coaching",
+    "rule": "Kui naisklient ei soovi rinnalihaseid treenida, selgitatakse nende vajalikkust ja jäetakse vähemalt üks surumisharjutus.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-034",
+    "title": "Selg ja lai selg",
+    "category": "coaching",
+    "rule": "Kui klient kardab laia selga, selgitatakse seljatreeningu vajalikkust ja harjutusi ei eemaldata.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-035",
+    "title": "Kükimüüt",
+    "category": "coaching",
+    "rule": "Põlvede varvastest üle liikumine ei ole automaatselt probleem; hinnatakse tehnikat, valu ja liikuvust.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-036",
+    "title": "Kükk ja valu",
+    "category": "safety",
+    "rule": "Kui kükis tekib valu või tugev hirm, kasutatakse ettevaatlikku regressiooni või asendust.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-037",
+    "title": "RDL alaseljas",
+    "category": "troubleshooting",
+    "rule": "Kui klient tunneb RDL-i ainult alaseljas, kontrollitakse tehnikat, vähendatakse raskust, proovitakse varianti ja vajadusel eemaldatakse harjutus.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-038",
+    "title": "Hip Thrust tunnetus",
+    "category": "troubleshooting",
+    "rule": "Kui klient ei tunne Hip Thrust'i tuharates, kontrollitakse tehnikat, raskust, jalgade asendit ja ROM-i.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-039",
+    "title": "Bulgarian Split Squat ei meeldi",
+    "category": "coaching",
+    "rule": "Kui BSS on lihtsalt raske või ei meeldi, õpetatakse ja motiveeritakse; valu korral asendatakse.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-040",
+    "title": "Unilateral 1x",
+    "category": "programming",
+    "rule": "1x nädalas treeningu korral ei ole ühepoolne harjutus kohustuslik.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-041",
+    "title": "Unilateral 2x",
+    "category": "programming",
+    "rule": "2x nädalas võiks vähemalt ühes treeningus olla ühepoolne alakeha harjutus.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-042",
+    "title": "Unilateral 3x",
+    "category": "programming",
+    "rule": "3x nädalas või rohkem muutuvad ühepoolsed harjutused tavapäraseks osaks.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-043",
+    "title": "Tempo kuvamine",
+    "category": "exercise_instruction",
+    "rule": "Tempo kuvatakse nii numbriliselt kui ka sõnalise selgitusena.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-044",
+    "title": "ROM",
+    "category": "exercise_instruction",
+    "rule": "Vaikimisi kasutatakse maksimaalset valuvaba liigutusulatust, kus tehnika ja sihtlihase pinge säilivad.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-045",
+    "title": "Maksimaalne lihassuutlikkus",
+    "category": "intensity",
+    "rule": "Algajad ei treeni maksimaalse lihassuutlikkuseni; süsteem kasutab sisemiselt RIR-i.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-046",
+    "title": "Topeltprogressioon",
+    "category": "progression",
+    "rule": "Vaikimisi kasutatakse topeltprogressiooni: sama raskusega tõstetakse kordusi kuni ülemise piirini ja seejärel raskust.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-047",
+    "title": "Kiirendatud progressioon",
+    "category": "progression",
+    "rule": "Kui raskus on ilmselgelt liiga kerge ja varu on suur, võib järgmisel korral raskust tõsta enne ülemise korduspiiri saavutamist.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-048",
+    "title": "Kui korduseid ei tule",
+    "category": "progression",
+    "rule": "Kui klient ei saavuta miinimumkordusi, vähendatakse sama treeningu järgmistes seeriates raskust, kuid järgmine kord proovitakse algset raskust uuesti.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-049",
+    "title": "Üks halb treening",
+    "category": "progression",
+    "rule": "Üks halb treening ei tähenda automaatselt regressiooni ega kava muutmist.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-050",
+    "title": "Kava uuendamine",
+    "category": "program_cycle",
+    "rule": "Personaaltreeningus hinnatakse kava ümber umbes 8 nädala järel; ainult kava puhul 8–12 nädala järel.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-051",
+    "title": "Uus kava",
+    "category": "program_cycle",
+    "rule": "Uues kavas säilitatakse liikumismustrid ja funktsioonid, kuid vahetatakse võimalusel harjutused.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-052",
+    "title": "Keerukuse progressioon",
+    "category": "learning_progression",
+    "rule": "Kui klient liigub algajast kesktasemele, võib süsteem pakkuda tehniliselt keerukamaid harjutusi.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-053",
+    "title": "Algaja õpetamine",
+    "category": "learning_progression",
+    "rule": "Algaja puhul valitakse harjutus, mis õpetab liikumismustrit ja lihastunnetust, mitte maksimaalset lihasaktivatsiooni.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-054",
+    "title": "Smith kükk algajale",
+    "category": "learning_progression",
+    "rule": "Täiesti algajale võib küki õppimiseks eelistada Smithi masinat, sest see annab välise stabiilsuse.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-055",
+    "title": "Klassikaline jõutõmme",
+    "category": "exercise_selection",
+    "rule": "Täiesti algaja esimesse kavasse ei panda vaikimisi klassikalist jõutõmmet.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-056",
+    "title": "Olympic lifts",
+    "category": "exercise_selection",
+    "rule": "Rebimisi ja tõukamisi ei kasutata algaja baaskavades.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-057",
+    "title": "Harjutuse asendamine funktsiooni järgi",
+    "category": "substitution",
+    "rule": "Harjutusi asendatakse funktsiooni, mitte ainult lihase järgi.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-058",
+    "title": "Alternatiiv peab säilitama kontseptsiooni",
+    "category": "substitution",
+    "rule": "Alternatiivharjutus peab säilitama algse harjutuse programmeerimisfunktsiooni võimalikult palju.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-059",
+    "title": "Alternatiiv ei tohi dubleerida",
+    "category": "substitution",
+    "rule": "Alternatiiv ei tohi dubleerida teises treeningpäevas juba olemasolevat harjutust või funktsiooni.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-060",
+    "title": "Varustuse erandid",
+    "category": "substitution",
+    "rule": "Süsteem ei vaja iga jõusaali profiili; harjutuse juurde lisatakse funktsioonipõhised alternatiivid.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-061",
+    "title": "Harjutuste eemaldamine",
+    "category": "time_engine",
+    "rule": "Kui treening ületab aja, eemaldatakse esmalt harjutused, mille funktsioon on juba otsese või kaudse koormusega kaetud.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-062",
+    "title": "Compound eemaldatakse viimasena",
+    "category": "time_engine",
+    "rule": "Compound-harjutusi eemaldatakse ajapiirangu korral viimasena.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-063",
+    "title": "Kaudne lihaskoormus",
+    "category": "volume_engine",
+    "rule": "Süsteem arvestab otsest ja kaudset lihaskoormust.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-064",
+    "title": "Lihaste alamjaotused",
+    "category": "volume_engine",
+    "rule": "Süsteem arvestab vajadusel lihaste anatoomilisi alamjaotusi.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-065",
+    "title": "Nädalane treeningmaht",
+    "category": "volume_engine",
+    "rule": "AI arvutab iga lihasgrupi nädalased efektiivsed seeriad.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-066",
+    "title": "Treeningpäevade järjekord",
+    "category": "recovery",
+    "rule": "Treeninguid A/B/C ei pea tegema kindlas järjekorras.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-067",
+    "title": "Sama lihasgrupi taastumine",
+    "category": "recovery",
+    "rule": "Sama lihasgrupi intensiivse treeningu vahele peaks jääma vähemalt üks selle lihasgrupi treeninguvaba päev.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-068",
+    "title": "Split järjestikustel päevadel",
+    "category": "recovery",
+    "rule": "Upper/Lower või muu split võimaldab treeninguid teha järjestikustel päevadel, kui koormatakse erinevaid lihasgruppe.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-069",
+    "title": "Taastumise info",
+    "category": "client_docs",
+    "rule": "Taastumise juhised kuuluvad treeningkava kasutamise üldosasse, mitte iga harjutuse juurde.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-070",
+    "title": "Info jaotus",
+    "category": "client_docs",
+    "rule": "Treeningkava sisaldab treeningu ajal vajalikku infot; õpetav info kuulub juhendisse.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-071",
+    "title": "Harjutuse juhend",
+    "category": "exercise_instruction",
+    "rule": "Harjutuse juures kuvatakse sooritamise juhend, hingamine, levinumad vead, cue'd, mida peaks tundma ja alternatiivid.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-072",
+    "title": "Harjutuse raskusaste sisemiselt",
+    "category": "database",
+    "rule": "Harjutuse sobivus algajale/kesktasemele/edasijõudnule on sisemine AI väli, mitte kliendile nähtav info.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-073",
+    "title": "Masinad vs vabaraskused",
+    "category": "exercise_selection",
+    "rule": "Kesktasemel kliendile ei eelistata vaikimisi masinaid ega vabaraskusi; valik sõltub kontekstist.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-074",
+    "title": "Logimine",
+    "category": "logging",
+    "rule": "Treeningkavas on lihtne logi: planeeritud seeriad/kordused, raskus, tegelikud kordused ja märkused.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-075",
+    "title": "Äpi lisaväljad",
+    "category": "logging",
+    "rule": "Äpis võivad olla lisaväljad, kuid need ei ole kliendile kohustuslikud.",
+    "priority": "low",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-076",
+    "title": "Progressiooni lõpp",
+    "category": "progression",
+    "rule": "Platoo korral kontrollitakse esmalt kava järgimist, taastumist, toitumist ja tehnikat, mitte ei vahetata kohe harjutust.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-077",
+    "title": "Platoo",
+    "category": "progression",
+    "rule": "Kui platoo püsib ja tsükkel on kestnud 8–12 nädalat, võib harjutuse asendada sama funktsiooniga alternatiiviga.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-078",
+    "title": "Kliendi soov ei lõhu loogikat",
+    "category": "goal_specific",
+    "rule": "Kliendi soov muudab rõhuasetust, mitte kogu treeningloogikat.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-079",
+    "title": "Prioriteetne lihas",
+    "category": "goal_specific",
+    "rule": "Prioriteetse lihasgrupi lisamahtu antakse ainult siis, kui see ei riku kogu treeningu tasakaalu.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-080",
+    "title": "Sport informed",
+    "category": "goal_specific",
+    "rule": "Spordiala mõjutab harjutuste valikut, mitte ei muuda treeningut ühe piirkonna dominantseks.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-081",
+    "title": "Jooksja",
+    "category": "goal_specific",
+    "rule": "Jooksja kava jääb tasakaalustatud jõutreeninguks, kuid alakeha harjutused võivad olla jooksmist toetavamad.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-082",
+    "title": "Harjutus peab andma uut väärtust",
+    "category": "exercise_selection",
+    "rule": "Enne harjutuse lisamist hinnatakse, kas see annab treeningule uut väärtust.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-083",
+    "title": "Eemaldamise test",
+    "category": "exercise_selection",
+    "rule": "Kui harjutuse eemaldamine ei tee treeningut halvemaks, ei kuulu see harjutus kavasse.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-084",
+    "title": "Learning vs Training",
+    "category": "learning_progression",
+    "rule": "Süsteem eristab optimaalset harjutust õpetamiseks ja optimaalset harjutust treenimiseks.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-085",
+    "title": "Kliendile ei kuvata liigset infot",
+    "category": "client_docs",
+    "rule": "Kliendile ei kuvata AI sisemist otsustusloogikat, kui see ei aita treeningut paremini teha.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-086",
+    "title": "Quality Validation",
+    "category": "quality_check",
+    "rule": "Enne väljastamist läbib treeningkava kvaliteedikontrolli.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-087",
+    "title": "Liikumismustrite kontroll",
+    "category": "quality_check",
+    "rule": "Kvaliteedikontrollis hinnatakse, kas vajalikud liikumismustrid on kaetud.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-088",
+    "title": "Ajakontroll",
+    "category": "quality_check",
+    "rule": "Kvaliteedikontrollis hinnatakse, kas treening mahub etteantud aega.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-089",
+    "title": "Ohutuskontroll",
+    "category": "quality_check",
+    "rule": "Kvaliteedikontrollis kontrollitakse vastuolu vigastuste, vanuse, taseme ja piirangutega.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-090",
+    "title": "Progressioonikontroll",
+    "category": "quality_check",
+    "rule": "Kvaliteedikontrollis hinnatakse, kas igal harjutusel on võimalik progressiooni rakendada.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-091",
+    "title": "Treeneri ülekirjutus",
+    "category": "system_design",
+    "rule": "Treener saab AI valikuid muuta; lõplik otsus jääb treenerile.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-092",
+    "title": "Õppimine tulevikus",
+    "category": "system_design",
+    "rule": "Süsteem võib tulevikus õppida treeneri muudatustest ja kliendi logidest.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-093",
+    "title": "Tõendite haldus",
+    "category": "evidence",
+    "rule": "Teaduspõhised väärtused ei ole kõvakooditud, vaid seotud evidence_id-ga.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-094",
+    "title": "Reegli päritolu",
+    "category": "evidence",
+    "rule": "Iga reegel märgitakse allika järgi: teadus, treenerimetoodika või kliendi eelistus.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-095",
+    "title": "Tõendite tugevus",
+    "category": "evidence",
+    "rule": "Iga teaduspõhine reegel saab tõendite tugevuse hinnangu.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-096",
+    "title": "Client Profile",
+    "category": "client_profile",
+    "rule": "AI alustab alati kliendi profiilist: tase, eesmärk, piirangud, kestus, sagedus, kontekst.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-097",
+    "title": "Tehniline oskus eraldi",
+    "category": "client_profile",
+    "rule": "Treeningkogemus ja tehniline oskus ei ole sama asi ning neid hinnatakse eraldi.",
+    "priority": "high",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-098",
+    "title": "Vanus mõjutab valikut",
+    "category": "client_profile",
+    "rule": "Vanemal algajal kliendil võib süsteem eelistada rohkem välise stabiilsusega harjutusi.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-099",
+    "title": "Naised ja ülakeha",
+    "category": "programming",
+    "rule": "Naisklientide puhul on rinnalihaste töö olemas, kuid fookus võib olla rohkem seljal ja õlavöötmel.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-100",
+    "title": "Mehed ja balanss",
+    "category": "programming",
+    "rule": "Meestel võib olla rohkem surumisi, kuid nädala lõikes jälgitakse tõmmete ja surumiste tasakaalu.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-101",
+    "title": "Harjutuse mittemeeldimine",
+    "category": "coaching",
+    "rule": "Harjutust ei vahetata välja ainult sellepärast, et see ei meeldi; esmalt selgitatakse eesmärki ja motiveeritakse.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-102",
+    "title": "Valu korral asendus",
+    "category": "safety",
+    "rule": "Valu või liigeselise ebamugavuse korral hinnatakse tehnikat ja vajadusel asendatakse harjutus.",
+    "priority": "critical",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-103",
+    "title": "Deload",
+    "category": "recovery",
+    "rule": "Deload'i ei planeerita vaikimisi automaatselt, vaid kasutatakse vajadusel.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-104",
+    "title": "Soojendus",
+    "category": "warmup",
+    "rule": "Iseseisva treeningkava puhul arvestatakse treeningu sisse kuni 5 min üldsoojendust.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-105",
+    "title": "Personaaltreeningu soojendus",
+    "category": "warmup",
+    "rule": "Personaaltreeningul eeldatakse, et klient teeb üldsoojenduse enne treeningut.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-106",
+    "title": "Soojendusseeriad",
+    "category": "warmup",
+    "rule": "Soojendusseeriad on pigem lisasoovitus ja edasijõudnutele, mitte vaikimisi osa algaja kavast.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-107",
+    "title": "Venitused",
+    "category": "programming",
+    "rule": "Venitusi ei lisata vaikimisi treeningkava lõppu.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  },
+  {
+    "id": "DR-108",
+    "title": "Kõhulihased",
+    "category": "programming",
+    "rule": "60-minutilise Full Body treeningu lõpus on maksimaalselt üks kerelihaste harjutus, kui sedagi.",
+    "priority": "medium",
+    "source_type": "coach_method",
+    "client_visible": false
+  }
+]
