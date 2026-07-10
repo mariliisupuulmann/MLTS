@@ -1,0 +1,906 @@
+[
+  {
+    "muscle_id": "pectoralis_major_clavicular",
+    "name_et": "Suur rinnalihas – ülemine osa",
+    "name_en": "Pectoralis Major – Clavicular Head",
+    "name_la": "Pectoralis major pars clavicularis",
+    "group": "chest",
+    "subdivision": "upper_chest",
+    "functions": [
+      "shoulder_flexion",
+      "horizontal_adduction",
+      "internal_rotation"
+    ],
+    "agonist_in": [
+      "incline_press",
+      "low_to_high_fly"
+    ],
+    "synergists": [
+      "anterior_deltoid",
+      "triceps"
+    ],
+    "antagonists": [
+      "latissimus_dorsi",
+      "posterior_deltoid"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "pectoralis_major_sternal",
+    "name_et": "Suur rinnalihas – keskosa",
+    "name_en": "Pectoralis Major – Sternal Head",
+    "name_la": "Pectoralis major pars sternocostalis",
+    "group": "chest",
+    "subdivision": "mid_chest",
+    "functions": [
+      "horizontal_adduction",
+      "shoulder_adduction",
+      "internal_rotation"
+    ],
+    "agonist_in": [
+      "bench_press",
+      "chest_press",
+      "pec_deck"
+    ],
+    "synergists": [
+      "anterior_deltoid",
+      "triceps"
+    ],
+    "antagonists": [
+      "mid_trapezius",
+      "rhomboids",
+      "posterior_deltoid"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "latissimus_dorsi",
+    "name_et": "Lai seljalihas",
+    "name_en": "Latissimus Dorsi",
+    "name_la": "Latissimus dorsi",
+    "group": "back",
+    "subdivision": "lats",
+    "functions": [
+      "shoulder_adduction",
+      "shoulder_extension",
+      "internal_rotation"
+    ],
+    "agonist_in": [
+      "lat_pulldown",
+      "pull_up",
+      "straight_arm_pulldown"
+    ],
+    "synergists": [
+      "teres_major",
+      "biceps",
+      "posterior_deltoid"
+    ],
+    "antagonists": [
+      "pectoralis_major",
+      "anterior_deltoid"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "high"
+  },
+  {
+    "muscle_id": "rhomboids",
+    "name_et": "Romblihased",
+    "name_en": "Rhomboids",
+    "name_la": "Rhomboideus major/minor",
+    "group": "back",
+    "subdivision": "mid_back",
+    "functions": [
+      "scapular_retraction",
+      "scapular_downward_rotation"
+    ],
+    "agonist_in": [
+      "rows",
+      "face_pull"
+    ],
+    "synergists": [
+      "mid_trapezius",
+      "posterior_deltoid"
+    ],
+    "antagonists": [
+      "serratus_anterior",
+      "pectoralis_minor"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "trapezius_upper",
+    "name_et": "Trapetslihas – ülemine osa",
+    "name_en": "Upper Trapezius",
+    "name_la": "Trapezius pars descendens",
+    "group": "back",
+    "subdivision": "upper_traps",
+    "functions": [
+      "scapular_elevation",
+      "neck_extension"
+    ],
+    "agonist_in": [
+      "shrugs",
+      "carries"
+    ],
+    "synergists": [
+      "levator_scapulae"
+    ],
+    "antagonists": [
+      "lower_trapezius"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "low"
+  },
+  {
+    "muscle_id": "trapezius_middle",
+    "name_et": "Trapetslihas – keskmine osa",
+    "name_en": "Middle Trapezius",
+    "name_la": "Trapezius pars transversa",
+    "group": "back",
+    "subdivision": "mid_traps",
+    "functions": [
+      "scapular_retraction"
+    ],
+    "agonist_in": [
+      "rows",
+      "face_pull"
+    ],
+    "synergists": [
+      "rhomboids",
+      "posterior_deltoid"
+    ],
+    "antagonists": [
+      "serratus_anterior"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "trapezius_lower",
+    "name_et": "Trapetslihas – alumine osa",
+    "name_en": "Lower Trapezius",
+    "name_la": "Trapezius pars ascendens",
+    "group": "back",
+    "subdivision": "lower_traps",
+    "functions": [
+      "scapular_depression",
+      "upward_rotation"
+    ],
+    "agonist_in": [
+      "face_pull",
+      "y_raise",
+      "pulldown_control"
+    ],
+    "synergists": [
+      "serratus_anterior"
+    ],
+    "antagonists": [
+      "upper_trapezius"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "erector_spinae",
+    "name_et": "Selgroosirgestajad",
+    "name_en": "Erector Spinae",
+    "name_la": "Erector spinae",
+    "group": "back",
+    "subdivision": "lower_back",
+    "functions": [
+      "spinal_extension",
+      "anti_flexion"
+    ],
+    "agonist_in": [
+      "rdl",
+      "deadlift",
+      "back_extension"
+    ],
+    "synergists": [
+      "gluteus_maximus",
+      "hamstrings",
+      "core"
+    ],
+    "antagonists": [
+      "rectus_abdominis"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "deltoid_anterior",
+    "name_et": "Deltalihas – eesmine osa",
+    "name_en": "Anterior Deltoid",
+    "name_la": "Deltoideus pars clavicularis",
+    "group": "shoulders",
+    "subdivision": "front_delt",
+    "functions": [
+      "shoulder_flexion",
+      "horizontal_adduction",
+      "internal_rotation"
+    ],
+    "agonist_in": [
+      "overhead_press",
+      "front_raise"
+    ],
+    "synergists": [
+      "pectoralis_major",
+      "triceps"
+    ],
+    "antagonists": [
+      "posterior_deltoid",
+      "latissimus_dorsi"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "low"
+  },
+  {
+    "muscle_id": "deltoid_lateral",
+    "name_et": "Deltalihas – külgmine osa",
+    "name_en": "Lateral Deltoid",
+    "name_la": "Deltoideus pars acromialis",
+    "group": "shoulders",
+    "subdivision": "side_delt",
+    "functions": [
+      "shoulder_abduction"
+    ],
+    "agonist_in": [
+      "lateral_raise",
+      "machine_lateral_raise"
+    ],
+    "synergists": [
+      "supraspinatus"
+    ],
+    "antagonists": [
+      "latissimus_dorsi",
+      "pectoralis_major"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct",
+    "priority_default": "high"
+  },
+  {
+    "muscle_id": "deltoid_posterior",
+    "name_et": "Deltalihas – tagumine osa",
+    "name_en": "Posterior Deltoid",
+    "name_la": "Deltoideus pars spinalis",
+    "group": "shoulders",
+    "subdivision": "rear_delt",
+    "functions": [
+      "shoulder_extension",
+      "horizontal_abduction",
+      "external_rotation_assist"
+    ],
+    "agonist_in": [
+      "reverse_fly",
+      "face_pull",
+      "rows"
+    ],
+    "synergists": [
+      "rhomboids",
+      "middle_trapezius"
+    ],
+    "antagonists": [
+      "pectoralis_major",
+      "anterior_deltoid"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "rotator_cuff",
+    "name_et": "Rotaatorimansett",
+    "name_en": "Rotator Cuff",
+    "name_la": "Rotatores humeri",
+    "group": "shoulders",
+    "subdivision": "shoulder_stabilizers",
+    "functions": [
+      "shoulder_stabilization",
+      "external_rotation",
+      "internal_rotation"
+    ],
+    "agonist_in": [
+      "external_rotation",
+      "face_pull"
+    ],
+    "synergists": [
+      "deltoids",
+      "scapular_stabilizers"
+    ],
+    "antagonists": [],
+    "stabilizer_role": true,
+    "load_tracking": "indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "biceps_brachii",
+    "name_et": "Biitseps",
+    "name_en": "Biceps Brachii",
+    "name_la": "Biceps brachii",
+    "group": "arms",
+    "subdivision": "elbow_flexors",
+    "functions": [
+      "elbow_flexion",
+      "forearm_supination",
+      "shoulder_flexion_assist"
+    ],
+    "agonist_in": [
+      "biceps_curl",
+      "chin_up"
+    ],
+    "synergists": [
+      "brachialis",
+      "brachioradialis"
+    ],
+    "antagonists": [
+      "triceps"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "low"
+  },
+  {
+    "muscle_id": "brachialis",
+    "name_et": "Õlavarrelihas",
+    "name_en": "Brachialis",
+    "name_la": "Brachialis",
+    "group": "arms",
+    "subdivision": "elbow_flexors",
+    "functions": [
+      "elbow_flexion"
+    ],
+    "agonist_in": [
+      "hammer_curl",
+      "biceps_curl"
+    ],
+    "synergists": [
+      "biceps_brachii",
+      "brachioradialis"
+    ],
+    "antagonists": [
+      "triceps"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "low"
+  },
+  {
+    "muscle_id": "triceps_long_head",
+    "name_et": "Triitseps – pikk pea",
+    "name_en": "Triceps Long Head",
+    "name_la": "Triceps brachii caput longum",
+    "group": "arms",
+    "subdivision": "triceps",
+    "functions": [
+      "elbow_extension",
+      "shoulder_extension_assist"
+    ],
+    "agonist_in": [
+      "overhead_triceps_extension",
+      "pushdown"
+    ],
+    "synergists": [
+      "triceps_lateral_head",
+      "triceps_medial_head"
+    ],
+    "antagonists": [
+      "biceps_brachii"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "triceps_lateral_medial",
+    "name_et": "Triitseps – lateraalne ja mediaalne pea",
+    "name_en": "Triceps Lateral and Medial Heads",
+    "name_la": "Triceps brachii caput laterale/mediale",
+    "group": "arms",
+    "subdivision": "triceps",
+    "functions": [
+      "elbow_extension"
+    ],
+    "agonist_in": [
+      "pushdown",
+      "pressing"
+    ],
+    "synergists": [
+      "triceps_long_head"
+    ],
+    "antagonists": [
+      "biceps_brachii"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "gluteus_maximus",
+    "name_et": "Suur tuharalihas",
+    "name_en": "Gluteus Maximus",
+    "name_la": "Gluteus maximus",
+    "group": "glutes",
+    "subdivision": "glute_max",
+    "functions": [
+      "hip_extension",
+      "external_rotation",
+      "posterior_pelvic_control"
+    ],
+    "agonist_in": [
+      "hip_thrust",
+      "rdl",
+      "squat",
+      "leg_press"
+    ],
+    "synergists": [
+      "hamstrings",
+      "adductor_magnus"
+    ],
+    "antagonists": [
+      "hip_flexors"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "high"
+  },
+  {
+    "muscle_id": "gluteus_medius",
+    "name_et": "Keskmine tuharalihas",
+    "name_en": "Gluteus Medius",
+    "name_la": "Gluteus medius",
+    "group": "glutes",
+    "subdivision": "glute_med",
+    "functions": [
+      "hip_abduction",
+      "pelvic_stability",
+      "internal_external_rotation_assist"
+    ],
+    "agonist_in": [
+      "hip_abduction",
+      "lateral_walk",
+      "single_leg_work"
+    ],
+    "synergists": [
+      "gluteus_minimus",
+      "tensor_fasciae_latae"
+    ],
+    "antagonists": [
+      "hip_adductors"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "gluteus_minimus",
+    "name_et": "Väike tuharalihas",
+    "name_en": "Gluteus Minimus",
+    "name_la": "Gluteus minimus",
+    "group": "glutes",
+    "subdivision": "glute_min",
+    "functions": [
+      "hip_abduction",
+      "pelvic_stability"
+    ],
+    "agonist_in": [
+      "hip_abduction",
+      "single_leg_stability"
+    ],
+    "synergists": [
+      "gluteus_medius"
+    ],
+    "antagonists": [
+      "hip_adductors"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "quadriceps_rectus_femoris",
+    "name_et": "Reie nelipealihas – sirglihas",
+    "name_en": "Rectus Femoris",
+    "name_la": "Rectus femoris",
+    "group": "quadriceps",
+    "subdivision": "rectus_femoris",
+    "functions": [
+      "knee_extension",
+      "hip_flexion"
+    ],
+    "agonist_in": [
+      "leg_extension",
+      "squat",
+      "leg_press"
+    ],
+    "synergists": [
+      "vastus_lateralis",
+      "vastus_medialis",
+      "vastus_intermedius"
+    ],
+    "antagonists": [
+      "hamstrings"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "high"
+  },
+  {
+    "muscle_id": "quadriceps_vastus_lateralis",
+    "name_et": "Reie nelipealihas – välimine pakslihas",
+    "name_en": "Vastus Lateralis",
+    "name_la": "Vastus lateralis",
+    "group": "quadriceps",
+    "subdivision": "vastus_lateralis",
+    "functions": [
+      "knee_extension"
+    ],
+    "agonist_in": [
+      "leg_press",
+      "squat",
+      "leg_extension"
+    ],
+    "synergists": [
+      "rectus_femoris",
+      "vastus_medialis",
+      "vastus_intermedius"
+    ],
+    "antagonists": [
+      "hamstrings"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "high"
+  },
+  {
+    "muscle_id": "quadriceps_vastus_medialis",
+    "name_et": "Reie nelipealihas – sisemine pakslihas",
+    "name_en": "Vastus Medialis",
+    "name_la": "Vastus medialis",
+    "group": "quadriceps",
+    "subdivision": "vastus_medialis",
+    "functions": [
+      "knee_extension",
+      "patellar_tracking_assist"
+    ],
+    "agonist_in": [
+      "leg_extension",
+      "squat",
+      "step_up"
+    ],
+    "synergists": [
+      "rectus_femoris",
+      "vastus_lateralis",
+      "vastus_intermedius"
+    ],
+    "antagonists": [
+      "hamstrings"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "high"
+  },
+  {
+    "muscle_id": "quadriceps_vastus_intermedius",
+    "name_et": "Reie nelipealihas – keskmine pakslihas",
+    "name_en": "Vastus Intermedius",
+    "name_la": "Vastus intermedius",
+    "group": "quadriceps",
+    "subdivision": "vastus_intermedius",
+    "functions": [
+      "knee_extension"
+    ],
+    "agonist_in": [
+      "leg_press",
+      "squat",
+      "leg_extension"
+    ],
+    "synergists": [
+      "rectus_femoris",
+      "vastus_lateralis",
+      "vastus_medialis"
+    ],
+    "antagonists": [
+      "hamstrings"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "high"
+  },
+  {
+    "muscle_id": "hamstrings_biceps_femoris",
+    "name_et": "Reie kakspealihas",
+    "name_en": "Biceps Femoris",
+    "name_la": "Biceps femoris",
+    "group": "hamstrings",
+    "subdivision": "lateral_hamstring",
+    "functions": [
+      "knee_flexion",
+      "hip_extension",
+      "external_rotation_assist"
+    ],
+    "agonist_in": [
+      "leg_curl",
+      "rdl"
+    ],
+    "synergists": [
+      "semitendinosus",
+      "semimembranosus",
+      "gluteus_maximus"
+    ],
+    "antagonists": [
+      "quadriceps"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "high"
+  },
+  {
+    "muscle_id": "hamstrings_medial",
+    "name_et": "Poolkõõluslihas ja poolkilelihas",
+    "name_en": "Semitendinosus and Semimembranosus",
+    "name_la": "Semitendinosus / Semimembranosus",
+    "group": "hamstrings",
+    "subdivision": "medial_hamstrings",
+    "functions": [
+      "knee_flexion",
+      "hip_extension",
+      "internal_rotation_assist"
+    ],
+    "agonist_in": [
+      "leg_curl",
+      "rdl"
+    ],
+    "synergists": [
+      "biceps_femoris",
+      "gluteus_maximus"
+    ],
+    "antagonists": [
+      "quadriceps"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "high"
+  },
+  {
+    "muscle_id": "adductors",
+    "name_et": "Reie lähendajad",
+    "name_en": "Hip Adductors",
+    "name_la": "Adductores femoris",
+    "group": "thigh",
+    "subdivision": "adductors",
+    "functions": [
+      "hip_adduction",
+      "hip_extension_assist",
+      "pelvic_stability"
+    ],
+    "agonist_in": [
+      "hip_adduction_machine",
+      "sumo_squat"
+    ],
+    "synergists": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "antagonists": [
+      "gluteus_medius",
+      "gluteus_minimus"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "hip_flexors",
+    "name_et": "Puusapainutajad",
+    "name_en": "Hip Flexors",
+    "name_la": "Iliopsoas and synergists",
+    "group": "hip",
+    "subdivision": "hip_flexors",
+    "functions": [
+      "hip_flexion",
+      "pelvic_control"
+    ],
+    "agonist_in": [
+      "hanging_knee_raise",
+      "mountain_climber"
+    ],
+    "synergists": [
+      "rectus_femoris"
+    ],
+    "antagonists": [
+      "gluteus_maximus",
+      "hamstrings"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "low"
+  },
+  {
+    "muscle_id": "gastrocnemius",
+    "name_et": "Kaksik-sääremarjalihas",
+    "name_en": "Gastrocnemius",
+    "name_la": "Gastrocnemius",
+    "group": "calves",
+    "subdivision": "gastrocnemius",
+    "functions": [
+      "plantar_flexion",
+      "knee_flexion_assist"
+    ],
+    "agonist_in": [
+      "standing_calf_raise"
+    ],
+    "synergists": [
+      "soleus"
+    ],
+    "antagonists": [
+      "tibialis_anterior"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "low"
+  },
+  {
+    "muscle_id": "soleus",
+    "name_et": "Lestlihas",
+    "name_en": "Soleus",
+    "name_la": "Soleus",
+    "group": "calves",
+    "subdivision": "soleus",
+    "functions": [
+      "plantar_flexion"
+    ],
+    "agonist_in": [
+      "seated_calf_raise"
+    ],
+    "synergists": [
+      "gastrocnemius"
+    ],
+    "antagonists": [
+      "tibialis_anterior"
+    ],
+    "stabilizer_role": false,
+    "load_tracking": "direct",
+    "priority_default": "low"
+  },
+  {
+    "muscle_id": "tibialis_anterior",
+    "name_et": "Eesmine sääreluulihas",
+    "name_en": "Tibialis Anterior",
+    "name_la": "Tibialis anterior",
+    "group": "lower_leg",
+    "subdivision": "anterior_shin",
+    "functions": [
+      "dorsiflexion",
+      "ankle_control"
+    ],
+    "agonist_in": [
+      "tibialis_raise"
+    ],
+    "synergists": [],
+    "antagonists": [
+      "gastrocnemius",
+      "soleus"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "low"
+  },
+  {
+    "muscle_id": "rectus_abdominis",
+    "name_et": "Kõhu sirglihas",
+    "name_en": "Rectus Abdominis",
+    "name_la": "Rectus abdominis",
+    "group": "core",
+    "subdivision": "anterior_core",
+    "functions": [
+      "spinal_flexion",
+      "anti_extension"
+    ],
+    "agonist_in": [
+      "crunch",
+      "cable_crunch",
+      "plank"
+    ],
+    "synergists": [
+      "obliques",
+      "transverse_abdominis"
+    ],
+    "antagonists": [
+      "erector_spinae"
+    ],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "obliques",
+    "name_et": "Kõhu põikilihased",
+    "name_en": "Obliques",
+    "name_la": "Obliquus externus/internus abdominis",
+    "group": "core",
+    "subdivision": "lateral_core",
+    "functions": [
+      "rotation",
+      "anti_rotation",
+      "lateral_flexion",
+      "anti_lateral_flexion"
+    ],
+    "agonist_in": [
+      "pallof_press",
+      "side_plank",
+      "woodchop"
+    ],
+    "synergists": [
+      "transverse_abdominis",
+      "rectus_abdominis"
+    ],
+    "antagonists": [],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "transverse_abdominis",
+    "name_et": "Kõhu ristilihas",
+    "name_en": "Transverse Abdominis",
+    "name_la": "Transversus abdominis",
+    "group": "core",
+    "subdivision": "deep_core",
+    "functions": [
+      "intra_abdominal_pressure",
+      "spinal_stability",
+      "anti_extension"
+    ],
+    "agonist_in": [
+      "plank",
+      "pallof_press",
+      "dead_bug"
+    ],
+    "synergists": [
+      "obliques",
+      "pelvic_floor",
+      "multifidus"
+    ],
+    "antagonists": [],
+    "stabilizer_role": true,
+    "load_tracking": "direct_and_indirect",
+    "priority_default": "medium"
+  },
+  {
+    "muscle_id": "multifidus",
+    "name_et": "Mitmejaoline lihas",
+    "name_en": "Multifidus",
+    "name_la": "Multifidus",
+    "group": "core",
+    "subdivision": "deep_spinal_stabilizers",
+    "functions": [
+      "segmental_spinal_stability"
+    ],
+    "agonist_in": [
+      "bird_dog",
+      "anti_rotation",
+      "compound_lifts"
+    ],
+    "synergists": [
+      "transverse_abdominis",
+      "erector_spinae"
+    ],
+    "antagonists": [],
+    "stabilizer_role": true,
+    "load_tracking": "indirect",
+    "priority_default": "medium"
+  }
+]
