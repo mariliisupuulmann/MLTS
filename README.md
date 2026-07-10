@@ -8,7 +8,7 @@ MLTS on treeningkavade koostamise süsteem, mis ühendab Mari-Liisu treenerimeto
 - `specs/` – tehnilised spetsifikatsioonid
 - `data/` – harjutuste, lihaste ja reeglite andmemudelid
 - `prompts/` – AI promptid ja süsteemijuhised
-- `excel-prototype/` – Exceli generaatori prototüüp
+
 
 ## Staatus
 
